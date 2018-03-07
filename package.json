@@ -1,0 +1,50 @@
+{
+  "name": "press-releases",
+  "version": "0.0.1",
+  "description": "pages for press releases",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scout24/press-releases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scout24/press-releases/issues"
+  },
+  "homepage": "https://github.com/Scout24/press-releases#readme",
+  "dependencies": {
+    "@babel/core": "7.0.0-beta.35",
+    "@babel/preset-env": "7.0.0-beta.35",
+    "autoprefixer": "7.2.3",
+    "aws-sdk": "2.188.0",
+    "babel-loader": "8.0.0-beta.0",
+    "css-loader": "0.28.7",
+    "eslint": "4.15.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "glob": "7.1.2",
+    "graceful-fs": "4.1.11",
+    "imagemin": "5.3.1",
+    "imagemin-mozjpeg": "7.0.0",
+    "imagemin-webp": "4.1.0",
+    "md5-file": "3.2.3",
+    "minimist": "1.2.0",
+    "node-dir": "0.1.17",
+    "node-sass": "4.7.2",
+    "node-static": "0.7.10",
+    "postcss-loader": "2.0.9",
+    "purify-css": "1.2.5",
+    "purifycss-webpack": "0.7.0",
+    "raw-loader": "0.5.1",
+    "recursive-copy": "2.0.8",
+    "rimraf": "2.6.2",
+    "s3-website-tasks": "github:Scout24/s3-website-tasks#ea531993f9a58923ce0ec38b9bf36e911390fb2a",
+    "sass-loader": "6.0.6",
+    "showcar-ui": "4.2.0",
+    "stylelint": "8.4.0",
+    "stylelint-config-standard": "18.0.0",
+    "stylelint-webpack-plugin": "0.9.0",
+    "util.promisify": "1.0.0",
+    "webpack": "3.10.0"
+  }
+}

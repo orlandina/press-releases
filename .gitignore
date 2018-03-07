@@ -1,0 +1,9 @@
+public
+node_modules
+config.local.yaml
+.DS_Store
+.idea
+.vscode
+
+hugo
+dead-links.csv
