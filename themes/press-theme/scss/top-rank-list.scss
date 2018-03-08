@@ -1,0 +1,19 @@
+@import '../../../node_modules/showcar-ui/src/01-settings/variables.scss';
+@import '../../../node_modules/showcar-ui/src/02-sass-tools/sass-mq';
+
+.opt-rank-list-section {
+  border-bottom: 1px solid $black-30;
+  padding: $XXXL $L;
+
+  @include mqmin($viewportM) {
+    padding-top: $XXXXL;
+    padding-bottom: $XXXXL;
+    padding-left: 93px;
+    padding-right: 93px;
+  }
+
+  @include mqmin($viewportL) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}

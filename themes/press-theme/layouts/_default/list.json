@@ -1,0 +1,1 @@
+{{ range $key, $value := $.Params }}{{$.Scratch.SetInMap "index" $key ($.Param $key) }}{{ end }}{{$.Scratch.SetInMap "index" "content" .Content}}{{$.Scratch.SetInMap "index" "permalink" .Permalink}}{{$.Scratch.Get "index" | jsonify}}

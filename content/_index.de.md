@@ -1,290 +1,35 @@
 ---
-title: "press Hub"
-seoTitle: "AutoScout24 Marken- und Modellverzeichnis"
-seoDescription: "AutoScout24 - Alle Marken, alle Modelle im Überblick. Hier finden sie ihr passendes Wunsch-Auto."
-listingDisplay: carousel
-seoHeadline: ""
-contentHeadline: "Gebrauchtwagen finden bei AutoScout24"
-contentSubheadline: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
-focusKeyword: "Home"
-searchParams: ""
+title: "AGPI"
+headline: "AutoScout24 Trucks vergrößert sein Angebot durch Kooperationen im Landmaschinen-Bereich"
 pageType: "press-hub"
-#picturesmall: "images/model/bmw/bmw-1er/bmw-1er-s-01.jpg"
-#picturemedium: "images/model/bmw/bmw-1er/bmw-1er-m-01.jpg"
-#picturelarge: "images/model/bmw/bmw-1er/bmw-1er-l-01.jpg"
-sellBox:
-searchMask: true
-magazine:
-makeId: ""
-modelId: ""
-map:
-  headline: "Gebrauchtwagen in Deutschland finden"
-  type: "deutschland"
-  locations:
-    mecklemburg_vorpommern:
-      url: "mecklemburg_vorpommern"
-      title: "Mecklemburg-Vorpommern"
-    schleswig_holstein:
-      url: "schleswig_holstein"
-      title: "Schleswig-Holstein"
-    bayern:
-      url: "bayern"
-      title: "Bayern"
-    baden_wuerttemberg:
-      url: "baden_wuerttemberg"
-      title: "Baden-Württemberg"
-    sachsen:
-      url: "sachsen"
-      title: "Sachsen"
-    brandenburg:
-      url: "brandenburg"
-      title: "Brandenburg"
-    sachsen_anhalt:
-      url: "sachsen_anhalt"
-      title: "Sachsen-Anhalt"
-    nordrhein_westfalen:
-      url: "nordrhein_westfalen"
-      title: "Nordrhein-Westfalen"
-    hessen:
-      url: "hessen"
-      title: "Hessen"
-    rheinland:
-      url: "rheinland"
-      title: "Rheinland"
-    saarland:
-      url: "saarland"
-      title: "Saarland"
-    berlin:
-      url: "berlin"
-      title: "Berlin"
-    niedersachsen:
-      url: "niedersachsen"
-      title: "Niedersachsen"
-    thueringen:
-      url: "thueringen"
-      title: "Thüringen"
-    bremen:
-      url: "bremen"
-      title: "Bremen"
-    hamburg:
-      url: "hamburg"
-      title: "Hamburg"
-modelfinder: 
-  - headline: Beliebte Modelle bei AutoScout24
-    subheadline:
-    modelcards:
-      - title: "Toyota Auris"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-auris/"
-        img: "images/model-finder/toyota/toyota_auris_xs.jpg"
-      - title: "Toyota Avensis"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-avensis/"
-        img: "images/model-finder/toyota/toyota_avensis_xs.jpg"
-      - title: "Toyota Aygo"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-aygo/"
-        img: "images/model-finder/toyota/toyota_aygo_xs.jpg"
-      - title: "Toyota Corolla"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-corolla/"
-        img: "images/model-finder/toyota/toyota_corolla_xs.jpg"
-      - title: "Toyota GT86"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-gt86/"
-        img: "images/model-finder/toyota/toyota_gt86_xs.jpg"
-      - title: "Toyota Hilux"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-hilux/"
-        img: "images/model-finder/toyota/toyota_hilux_xs.jpg"
-      - title: "Toyota Prius"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-prius/"
-        img: "images/model-finder/toyota/toyota_prius_xs.jpg"
-      - title: "Toyota RAV 4"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-rav-4/"
-        img: "images/model-finder/toyota/toyota_rav4_xs.jpg"
-      - title: "Toyota Supra"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-supra/"
-        img: "images/model-finder/toyota/toyota_supra_xs.jpg"
-      - title: "Toyota Yaris"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-yaris/"
-        img: "images/model-finder/toyota/toyota_yaris_xs.jpg"
-  - headline: Alle Modelle blabla
-    modelcards:
-      - title: "Toyota Auris"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-auris/"
-        img: "images/model-finder/toyota/toyota_auris_xs.jpg"
-      - title: "Toyota Avensis"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-avensis/"
-        img: "images/model-finder/toyota/toyota_avensis_xs.jpg"
-      - title: "Toyota Aygo"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-aygo/"
-        img: "images/model-finder/toyota/toyota_aygo_xs.jpg"
-      - title: "Toyota Corolla"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-corolla/"
-        img: "images/model-finder/toyota/toyota_corolla_xs.jpg"
-      - title: "Toyota GT86"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-gt86/"
-        img: "images/model-finder/toyota/toyota_gt86_xs.jpg"
-      - title: "Toyota Hilux"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-hilux/"
-        img: "images/model-finder/toyota/toyota_hilux_xs.jpg"
-      - title: "Toyota Prius"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-prius/"
-        img: "images/model-finder/toyota/toyota_prius_xs.jpg"
-      - title: "Toyota RAV 4"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-rav-4/"
-        img: "images/model-finder/toyota/toyota_rav4_xs.jpg"
-      - title: "Toyota Supra"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-supra/"
-        img: "images/model-finder/toyota/toyota_supra_xs.jpg"
-      - title: "Toyota Yaris"
-        url: "https://www.autoscout24.es/coches/toyota/toyota-yaris/"
-        img: "images/model-finder/toyota/toyota_yaris_xs.jpg"
-ranklist:
-  - headline: "Top Gebrauchtwagen Marken bei AutoScout24"
-    allmakesbtn:
-      title: "Zu allen Marken"
-      url: "#"
-    listitems: 
-      - name: "Audi"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "Ford"
-        url: "#"
-      - name: "Hyundai"
-        url: "#"
-      - name: "Mercedes-Benz"
-        url: "#"
-      - name: "Opel"
-        url: "#"
-      - name: "Porche"
-        url: "#"
-      - name: "Skoda"
-        url: "#"
-      - name: "Toyota"
-        url: "#"
-      - name: "VW"
-        url: "#"
-      - name: "Elf"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-  - subheadline: "Die 20 größten Städte in Deutschland"
-    listitems: 
-      - name: "Audi"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "Ford"
-        url: "#"
-      - name: "Hyundai"
-        url: "#"
-      - name: "Mercedes-Benz"
-        url: "#"
-      - name: "Opel"
-        url: "#"
-      - name: "Porche"
-        url: "#"
-      - name: "Skoda"
-        url: "#"
-      - name: "Toyota"
-        url: "#"
-      - name: "VW"
-        url: "#"
-      - name: "Elf"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-      - name: "BMW"
-        url: "#"
-magazinearticles: 
-  headline: "Gebrauchtwagen kaufen"
-  subheadline: "Alles was Sie dazu wissen müssen"
-  allarticlesbtn:
-    url: "#"
-    title: "Alle Artikel zum Thema Gebrauchtwagen-Kauf"
-  articles:
-    - extratitle: "Lorem Ipsum"
-      title: "Lorem ...."
-      content: "238 Zeichen: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies n ..."
-      link: "#"
-      picsmall: "https://placehold.it/480x270"
-      picmedium: "https://placehold.it/786x432"
-    - extratitle: "Lorem Ipsum"
-      title: "Lorem ...."
-      content: "238 Zeichen: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies n ..."
-      link: "#"
-      picsmall: "https://placehold.it/480x270"
-      picmedium: "https://placehold.it/786x432"
-    - extratitle: "Lorem Ipsum"
-      title: "Lorem ...."
-      content: "238 Zeichen: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies n ..."
-      link: "#"
-      picsmall: "https://placehold.it/480x270"
-      picmedium: "https://placehold.it/786x432"
-linksection: 
-  - headline: "Finden Sie spezielle Gebrauchtwagen"
-    links:
-        - url: "http://www.autoscout24.de/themen/autopflege/"
-          name: "Autopflege"
-        - url: "http://www.autoscout24.de/themen/autorecht/"
-          name: "Autorecht"
-        - url: "http://www.autoscout24.de/themen/autoreparatur/"
-          name: "Autoreparatur"
-        - url: "http://www.autoscout24.de/themen/kfz-technik/"
-          name: "KFZ Technik"
-        - url: "http://www.autoscout24.de/themen/spezialthemen/rechner/firmenwagenrechner/"
-          name: "Firmenwagenrechner"
-  - headline: "Gebrauchtwagen in Deutschland"
-    links:
-        - url: "http://www.autoscout24.de/themen/autopflege/"
-          name: "Autopflege"
-        - url: "http://www.autoscout24.de/themen/autorecht/"
-          name: "Autorecht"
-        - url: "http://www.autoscout24.de/themen/autoreparatur/"
-          name: "Autoreparatur"
-        - url: "http://www.autoscout24.de/themen/kfz-technik/"
-          name: "KFZ Technik"
-        - url: "http://www.autoscout24.de/themen/spezialthemen/rechner/firmenwagenrechner/"
-          name: "Firmenwagenrechner"
-        - url: "http://www.autoscout24.de/themen/autopflege/"
-          name: "Autopflege"
-        - url: "http://www.autoscout24.de/themen/autorecht/"
-          name: "Autorecht"
-        - url: "http://www.autoscout24.de/themen/autoreparatur/"
-          name: "Autoreparatur"
-        - url: "http://www.autoscout24.de/themen/kfz-technik/"
-          name: "KFZ Technik"
-        - url: "http://www.autoscout24.de/themen/spezialthemen/rechner/firmenwagenrechner/"
-          name: "Firmenwagenrechner"
+teaserText: "AutoScout24 Trucks baut mit neuen Kooperationen seine Stellung im Markt für gebrauchte Landmaschinen aus. Durch die Zusammenarbeit mit AGRAVIS Technik, der BayWa AG und E-Farm vervielfacht die Nutzfahrzeug-Sparte des europaweit größten Online-Automarkts unter www.truckscout24.de den vorhandenen Online-Bestand an Gebrauchtmaschinen. Um diesem vergrößerten Maschinen-Angebot auch eine große Nachfrage gegenüber zu stellen, optimiert AutoScout24 Trucks außerdem seinen Marktplatz."
+country: "Deutschland"
+language: "de"
+category: "AGPI" 
+tags: [ "B2B" ]
+date: "07.03.2018"
+years: [ "2018" ]
+location: "München"
+picture: ""
+pdf: ""
 ---
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+<p>AutoScout24 Trucks baut mit neuen Kooperationen seine Stellung im Markt für gebrauchte Landmaschinen aus. Durch die Zusammenarbeit mit AGRAVIS Technik, der BayWa AG und E-Farm vervielfacht die Nutzfahrzeug-Sparte des europaweit größten Online-Automarkts unter www.truckscout24.de den vorhandenen Online-Bestand an Gebrauchtmaschinen. Um diesem vergrößerten Maschinen-Angebot auch eine große Nachfrage gegenüber zu stellen, optimiert AutoScout24 Trucks außerdem seinen Marktplatz.
+</p>
+<h3>Relevantes Angebot wird ausgebaut</h3>
+<p>
+„Wir freuen uns sehr, dass wir unseren Kaufinteressenten durch die Zusammenarbeit mit so etablierten und starken Nutzfahrzeughändlern wie der AGRAVIS Technik und der BayWA eine noch breitere Palette an Landmaschinen bieten können“, sagt Boris Danne, Business Development Manager bei AutoScout24. „Es ist für uns ein großer Schritt. Unser Ziel ist es, der wichtigste Anbieter im Nutzfahrzeugbereich zu werden.“ Guido Ottens, Geschäftsführer der AGRAVIS Technik Center GmbH sieht ebenfalls viele Vorteile: „Wir profitieren von der fortgeschrittenen Marktplatz-Technologie und der starken Online-Expertise bei AutoScout24 Trucks.“ Bernd Landes, Leiter Gebrauchtmaschinen, bei der BayWa, sagt zur neuen Allianz: „Deutsche Gebrauchtmaschinen sind auf dem internationalen Markt sehr gefragt. AutoScout24 ermöglicht es uns, diese Märkte weiter zu erschließen.“
+</p>
+<h3>Internationale Nachfrage wird immer wichtiger</h3>
+<p>
+Auch die Kooperation mit dem 2015 gegründeten Start-up E-Farm stärkt das Inventar bei AutoScout24. Das Hamburger Unternehmen bündelt das Angebot kleiner Verkäufer und integriert diese jetzt auch auf AutoScout24 Trucks, um dort internationale Käufer anzusprechen. AutoScout24 ist europaweit der größte Online-Automarkt. Das Unternehmen ist in 18 Ländern vertreten, was für allem für Händler von Nutzfahrzeugen interessant ist, da die Exportquoten in diesem Bereich besonders hoch sind.
+</p><p>
+AutoScout24 Trucks baut nun seinen Service gezielt für internationale Nutzer weiter aus. Händler haben jetzt die Möglichkeit in ihren Inseraten mehrere Kontaktpersonen für unterschiedliche Sprachen anzugeben. „Mit dieser Funktion setzen wir ein Feedback um, das wir von unseren Händlern erhalten haben.“, sagt Boris Danne. „Mit den internationalen Ansprechpartnern profitieren internationale Käufer und Händler. Der Käufer hat direkt einen Ansprechpartner, der ihn versteht. Und der Verkäufer muss die Anfrage nicht umständlich innerhalb seiner Sales-Organisation an den zuständigen Mitarbeiter weiterleiten.“
+</p>
+<h3>Über AutoScout24</h3>
+<p>
+AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. *
+</p><p>
+AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
+</p><p>
+* FOCUS-MONEY Studie „Kundenfreundliche Apps“ (Heft 13/17)
+</p>

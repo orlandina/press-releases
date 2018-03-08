@@ -1,0 +1,88 @@
+- id: defaultHeadline
+  translation: "{{ .Title }} - Compra o vende tu moto usada o nueva - AutoScout24"
+- id: homepage
+  translation: "Página de inicio"
+- id: moreOptions
+  translation: "Refinar búsqueda"
+- id: searchHeadline
+  translation: "Encuentra el coche de tus sueños"
+- id: searchSubHeadline
+  translation: "Más de 2.4 millones de vehículos a lo largo de toda Europa"
+- id: modelfinder
+  translation: "Resumen de modelos más populares"
+- id: currentOffers
+  translation: "Ofertas destacadas"
+- id: introtext
+  translation: "Portada"
+- id: magazine
+  translation: "Últimas noticias"
+- id: ratings
+  translation: "Pruebas del coche / Análisis"
+- id: techdata
+  translation: "Datos técnicos"
+- id: morelinks
+  translation: "Más enlaces"
+- id: totop
+  translation: "Ir arriba"
+- id: showmore
+  translation: "Mostrar más"
+- id: toplisting
+  translation: "Ofertas destacadas"
+- id: make-info
+  translation: "Información del fabricante"
+- id: aktuelleModelle
+  translation: "Modelos actuales"
+- id: Baujahr
+  translation: "Año"
+- id: Farbe
+  translation: "Variantes de colores"
+- id: Hersteller
+  translation: "Marca"
+- id: Fahrzeugtyp
+  translation: "Tipos de vehículo"
+- id: Modelle
+  translation: "Modelos"
+- id: Türen
+  translation: "Número de puertas"
+- id: Ausstattung
+  translation: "Variantes de equipamiento"
+- id: Motorleistung
+  translation: "Potencia de los motores"
+- id: Kraftstoff
+  translation: "Variantes de combustible"
+- id: Fahrzeugkategorie
+  translation: "Categorías de vehículo"
+- id: Preissegment
+  translation: "Rango de precio"
+- id: Getriebe
+  translation: "Tipos de caja de cambios"
+- id: Spezial
+  translation: "Especial"
+- id: PS
+  translation: "Potencia CV"
+- id: Gütesiegel
+  translation: "Sellos de calidad"
+- id: Erstzulassung
+  translation: "Año"
+- id: Kilometer
+  translation: "Kilometraje"
+- id: Aufbautyp
+  translation: "Tipos de fabricación"
+- id: Kat
+  translation: "Categorías"
+- id: Home
+  translation: "Home"
+- id: Sitze
+  translation: "Asientos"
+- id: Baureihe
+  translation: "Serie"
+- id: Hubraum
+  translation: "Capacidad (cc)"
+- id: allmakes
+  translation: "Listado de marcas"
+- id: offers
+  translation: "resultados"  
+- id: make
+  translation: "Marca"
+- id: model
+  translation: "Modelo"

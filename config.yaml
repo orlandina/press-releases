@@ -1,17 +1,21 @@
 baseURL: https://www.autoscout24.de/press/
-theme: seo-pages-hugo-theme
+theme: press-theme
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
 enableGitInfo: true
 disableHugoGeneratorInject: true
 canonifyURLs: true
-disableKinds: ["taxonomy","taxonomyTerm","rss"]
 staticDir: []
 publishDir: public/press
 outputs:
   section:
   - HTML
-
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  date: "dates"
+  year: "years"
+  location: "locations"
 params:
   homeURL: https://www.autoscout24.de
   langtag: de-DE

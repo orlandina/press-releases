@@ -10,7 +10,7 @@ const extractStyles = new ExtractTextPlugin({
 });
 
 module.exports = {
-  entry: './themes/seo-pages-hugo-theme/js/main.js',
+  entry: './themes/press-theme/js/main.js',
   output: {
     filename: 'public/assets/press/js/main.js'
   },
@@ -50,7 +50,7 @@ module.exports = {
     new StylelintPlugin({files: 'themes/**/*.scss'}),
     new ExtractTextPlugin('[name].[contenthash].css'),
     new PurifyCSSPlugin({
-      paths: glob.sync(path.join(__dirname,'themes/seo-pages-hugo-theme/layouts/**/*.html')),
+      paths: glob.sync(path.join(__dirname,'themes/press-theme/layouts/**/*.html')),
       minimize: true
     })
   ]

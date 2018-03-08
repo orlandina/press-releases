@@ -1,0 +1,88 @@
+- id: defaultHeadline
+  translation: "{{ .Title }} motoren te koop: tweedehands en nieuw"
+- id: homepage
+  translation: "Homepage"
+- id: moreOptions
+  translation: "Uitgebreid zoeken"
+- id: searchHeadline
+  translation: "Vind nu uw droomauto"
+- id: searchSubHeadline
+  translation: "In 2.4 miljoen auto's bij Europa-breed de grootste online automarkt."
+- id: modelfinder
+  translation: "Overzicht van de populairste modellen"
+- id: currentOffers
+  translation: "Huidige aanbiedingen"
+- id: introtext
+  translation: "Overzicht"
+- id: magazine
+  translation: "Laatse nieuws en autotests"
+- id: ratings
+  translation: "Beoordelingen"
+- id: techdata
+  translation: "Technische gegevens"
+- id: morelinks
+  translation: "Overige thema’s en informatie"
+- id: totop
+  translation: "Nach Oben"
+- id: showmore
+  translation: "Toon meer"
+- id: toplisting
+  translation: "Top aanbod"
+- id: make-info
+  translation: "Informatie fabrikant"
+- id: aktuelleModelle
+  translation: "Huidige modellen"
+- id: Baujahr
+  translation: "Bouwjaren"
+- id: Farbe
+  translation: "Kleurvarianten"
+- id: Hersteller
+  translation: "Fabrikanten"
+- id: Fahrzeugtyp
+  translation: "Type voertuigen"
+- id: Modelle
+  translation: "Modellen"
+- id: Türen
+  translation: "Aantal deuren"
+- id: Ausstattung
+  translation: "Uitrustingsniveau"
+- id: Motorleistung
+  translation: "Motorvermogen"
+- id: Kraftstoff
+  translation: "Brandstof variant"
+- id: Fahrzeugkategorie
+  translation: "Voertuigcategorieën"
+- id: Preissegment
+  translation: "Prijsklassen"
+- id: Getriebe
+  translation: "Versnellingstype"
+- id: Spezial
+  translation: "Speciaal"
+- id: PS
+  translation: "Vermogen PK"
+- id: Gütesiegel
+  translation: "Keurmerk"
+- id: Erstzulassung
+  translation: "Bouwjaar"
+- id: Kilometer
+  translation: "Kilometerstand"
+- id: Aufbautyp
+  translation: "Lichaamstypen"
+- id: Kat
+  translation: "Kat"
+- id: Home
+  translation: "Home"
+- id: Sitze
+  translation: "Sitze"
+- id: Baureihe
+  translation: "Serie"
+- id: Hubraum
+  translation: "Cilinder (cc)"
+- id: allmakes
+  translation: "Alle merken - Overzicht"
+- id: offers
+  translation: "Resultaten"
+- id: make
+  translation: "Merk"
+- id: model
+  translation: "Model"

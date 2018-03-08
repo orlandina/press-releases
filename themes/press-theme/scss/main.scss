@@ -1,0 +1,81 @@
+@import '../../../node_modules/showcar-ui/src/01-settings/variables.scss';
+@import '../../../node_modules/showcar-ui/src/02-sass-tools/sass-mq';
+
+@import 'editorial-content';
+@import 'footnotes';
+@import 'hero';
+@import 'listings';
+@import 'model-finder';
+@import 'showcar-carousel';
+@import 'media-section';
+@import 'search-teaser';
+@import 'tech-data';
+@import 'map';
+@import 'top-rank-list';
+@import 'articles';
+@import 'link-section';
+
+$horizontal-spacing-l: 93px;
+$horizontal-spacing-m: 98px;
+
+.sc-content-container {
+  background-color: $white;
+
+  @include mqmin($viewportL) {
+    border: 1px solid $black-30;
+    border-top: 0;
+  }
+
+  @include mqmin($viewportM) {
+    h1.sc-font {
+      font-size: $XXL;
+    }
+  }
+}
+
+.sc-headline-with-breadcrumbs,
+.opt-breadcrumbs-without-headline {
+  background-color: $black-20;
+  padding-bottom: $XL;
+  border-bottom: 1px solid $black-30;
+  padding-right: $L;
+
+  @include mqmin($viewportM) {
+    padding-left: $XS;
+    padding-right: $XL;
+  }
+}
+
+.sc-link-text-box,
+.sc-media-section,
+.opt-links-section {
+  border-bottom: 1px solid $black-30;
+  padding-left: $L;
+  padding-right: $L;
+  padding-top: $XXXL;
+  padding-bottom: $XXXL;
+
+  @include mqmin($viewportM) {
+    padding-top: $XXXXL;
+    padding-bottom: $XXXXL;
+    padding-left: $horizontal-spacing-m;
+    padding-right: $horizontal-spacing-m;
+  }
+
+  @include mqmin($viewportL) {
+    padding-left: $horizontal-spacing-l;
+    padding-right: $horizontal-spacing-l;
+  }
+}
+
+.opt-links-section + .opt-links-section {
+  border-bottom: none;
+}
+
+.opt-links-section__headline {
+  padding-bottom: $XXL;
+
+  @include mqmin($viewportM) {
+    padding-bottom: $XXXL;
+  }
+}

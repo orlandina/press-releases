@@ -1,0 +1,8 @@
+name: "press-theme"
+license: "MIT"
+description: "AutoScout24 press theme"
+homepage: "https://www.autoscout24.de"
+min_version: 0.12
+
+author:
+  name: "AutoScout24"s

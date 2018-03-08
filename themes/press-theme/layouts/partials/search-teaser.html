@@ -1,0 +1,502 @@
+{{ if ne .Params.searchMask false }}
+
+<section class="opt-search-teaser">
+    <style>
+        .opt-search-teaser{
+            color: #fff;
+            padding: 16px;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .opt-search-teaser__header{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .opt-search-teaser__subheadline{
+            display: none;
+        }
+
+        .opt-search-teaser__background{
+            width: calc(100% + 80px);
+            margin-left: -40px;
+            max-width: initial;
+        }
+
+        .opt-search-teaser__text{
+            position: absolute;
+        }
+
+        .opt-search-teaser__box{
+            background: #fff;
+            padding: 12px 8px 20px;
+            margin: -36px 8px 0 8px;
+            z-index: 3;
+            min-width: 250px;
+        }
+        .sc-input{
+            margin-bottom: 12px;
+        }
+
+        .opt-search-teaser__link {
+            line-height: 16px;
+            color: #007cca;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        @media screen and (min-width: 768px) {
+            .opt-search-teaser{
+                background-image: url('https://www.autoscout24.de/assets/opt-pages/stylesheets/images/searchmask_m.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                align-items: flex-start;
+                justify-content: flex-end;
+                flex-direction: row-reverse;
+                padding: 40px 80px;
+            }
+            .opt-search-teaser__box{
+                max-width: 250px;
+                padding: 20px;
+                margin-top: 0;
+            }
+            .opt-search-teaser__background{
+                display: none;
+            }
+
+            .opt-search-teaser__text{
+                position: relative;
+            }
+
+            .opt-search-teaser__subheadline{
+                display: block;
+            }
+
+            .opt-search-teaser__box{
+                margin-right: 40px;
+            }
+
+            .opt-search-teaser__header{
+                max-width: 420px;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .opt-search-teaser{
+                background-image: url('https://www.autoscout24.de/assets/opt-pages/stylesheets/images/searchmask_l.jpg');
+                align-items: center;
+            }
+        }
+    </style>
+    <div class="opt-search-teaser__header">
+        <img class="opt-search-teaser__background" src="https://www.autoscout24.de/assets/opt-pages/stylesheets/images/searchmask_s.jpg" alt="">
+        <div class="opt-search-teaser__text">
+            <h2 class="opt-search-teaser__headline sc-font-xl">{{ i18n "searchHeadline" }}</h2>
+            <h3 class="opt-search-teaser__subline sc-font-l">{{ i18n "searchSubHeadline" }}</h3>
+        </div>
+    </div>
+    {{$currentmake := .Params.makeId}}
+    {{$currentmodel := .Params.modelId}}
+    <div class="opt-search-teaser__box">
+        <form method="GET" action="" id="carSearchForm" class="searchForm">
+            <input type="hidden" id="searchType" value="C">
+            <input type="hidden" id="atype" name="atype" value="C">
+            <input type="hidden" id="ustate" name="ustate" value="N,U">
+            <input type="hidden" name="cy" value="">
+            <input type="hidden" id="mmvco" name="mmvco" value="1">
+            <input type="hidden" id="mmvmk0" name="mmvmk0" value="{{$currentmake}}">
+            <input type="hidden" id="mmvmd0" name="mmvmd0" value="{{$currentmodel}}">
+            <select class="sc-input" id="carSearch_makemodelmodelline" name="make" data-test="makemodelmodelline">
+                <option value="0">{{i18n "make"}}</option>
+
+                  {{- range $i, $r := getJSON "custom-data/makes.json" -}}
+                  {{- if lt $r.makeid 50000 -}}
+                  {{if eq (string $r.makeid) $currentmake}}
+                      <option value="{{$r.makeid}}" selected="selected">{{$r.makename}}</option>
+                    {{else}}
+                      <option value="{{$r.makeid}}">{{$r.makename}}</option>
+                    {{end}}
+                  {{end}}
+                {{end}}
+                <optgroup label="_________________">
+                </optgroup>
+            </select>
+            <select class="sc-input" id="carSearch_modelline" name="model" data-test="modelline" data-model-id="{{ $currentmodel }}" disabled="true">
+                <option selected="" value="">{{i18n "model"}}</option>
+            </select>
+            <select class="sc-input" name="fregfrom" data-test="fregfrom" data-val="true"
+            data-val-number="The field Year must be a number."
+            data-val-required="The Year field is required."
+            id="SearchParameters_FirstRegistrationFrom_Year">
+            <option value="">{{i18n "Erstzulassung"}}</option>
+            {{- range $i, $sequence :=  (seq now.Year 1981) -}}
+            <option value="{{ $sequence }}">{{ $sequence }}</option>
+            {{ end }}
+            <option value="1980">1980</option>
+            <option value="1975">1975</option>
+            <option value="1970">1970</option>
+            <option value="1965">1965</option>
+            <option value="1960">1960</option>
+            <option value="1955">1955</option>
+            <option value="1950">1950</option>
+            <option value="1940">1940</option>
+            <option value="1930">1930</option>
+            <option value="1920">1920</option>
+            <option value="1910">1910</option>
+        </select>
+            <input type="hidden" name="lat" data-test="lat">
+            <input type="hidden" name="lon" data-test="lon">
+            <input type="hidden" name="zipr" data-test="zipr" value="200">
+            <button class="sc-btn-bob sc-btn-block" data-test="searchButton" id="submitButton"><span id="counter"></span>&nbsp;{{i18n "offers"}}</button>
+            <a id="detailSearchLink"
+                class="sc-search__link sc-text-center"
+                data-detail-search-link=""
+                data-detail-search-link-mobile="">
+                {{i18n "moreOptions"}}</a>
+            <input type="hidden" id="sortparam" name="sort" value="standard">
+            <input type="hidden" id="sordorderparam" name="desc" value="0">
+            <input type="hidden" id="fuel" name="fuel" value="">
+        </form>
+    </div>
+    <script type="text/javascript">var showcarSearchTeaser = (function () {
+        'use strict';
+
+        var SearchModule = function (searchType) {
+
+            var type = searchType ? searchType : 'C';
+            var searchPrefix = type === 'C' ? 'carSearch' : 'motoSearch';
+            var makeList = document.getElementById(searchPrefix + '_makemodelmodelline');
+            var counterEl = document.getElementById('counter');
+            var firstReg = document.querySelector('.searchForm [name=fregfrom]');
+            var modelList = document.getElementById(searchPrefix + '_modelline');
+            var form = document.querySelector('form.searchForm');
+
+            var tld = location.hostname.split('.').pop();
+            if (tld === 'localhost' || tld === 'local' || tld === 'int') {
+                tld = 'de';
+            }
+            var timer = 0;
+
+            addEventsInForTab();
+            init();
+
+            function addEventsInForTab() {
+                makeList.addEventListener('change', function () {
+                    loadModelList(this.options[this.selectedIndex].value);
+                    loadCounter();
+                });
+
+                modelList.addEventListener('change', function () {
+                    loadCounter();
+                });
+
+                if(firstReg) {
+                    firstReg.addEventListener('change', function () {
+                        loadCounter();
+                    });
+                }
+
+                function goToDetailSearch() {
+                    var query = _getFormQueryString(this);
+                    var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                    var isMobile = windowWidth < 768;
+                    var detailSearchUrl = isMobile ? this.getAttribute('data-detail-search-link-mobile') : this.getAttribute('data-detail-search-link');
+                    var connector = detailSearchUrl.indexOf('?') > 0 ? '&' : '?';
+                    window.location.href = detailSearchUrl + connector + query;
+                    return false;
+                }
+
+                function _getFormQueryString(clickedElement) {
+                var kvpairs = [];
+                var form = clickedElement.parentElement;
+                if (!form || !form.elements) { return ''; }
+                for ( var i = 0; i < form.elements.length; i++ ) {
+                    var e = form.elements[i];
+                    if (!e.name || ['ipl', 'ipc'].indexOf(e.name) >= 0) { continue; } //filter inputs without name and tracking params
+                    kvpairs.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
+                }
+                var queryString = kvpairs.join("&");
+                return queryString;
+                }
+
+                var detailSearchButtons = document.querySelectorAll('[data-detail-search-query]');
+                for(var i = 0; i < detailSearchButtons.length; i++) {
+                    detailSearchButtons[i].addEventListener('click', goToDetailSearch);
+                }
+
+                if ( document.getElementById('sort') ) {
+                    document.getElementById('sort').addEventListener('change', function () {
+                        if (this.value[0] === '-') {
+                            document.getElementById('sordorderparam').value = 1;
+                        }
+                        else {
+                            document.getElementById('sordorderparam').value = '';
+                        }
+                        document.getElementById('sortparam').value = this.value.replace('-', '');
+                        setMakeQueryParameter();
+                        form.submit();
+                    });
+                }
+
+                form.addEventListener('submit', function() {
+                    setMakeQueryParameter();
+                });
+            }
+
+            function setMakeQueryParameter() {
+                if(makeList.value && makeList.value != '') {
+                    document.getElementById('mmvmk0').value = makeList.value;
+
+                    if(modelList.value && modelList.value != '') {
+                        document.getElementById('mmvmd0').value = modelList.value;
+                    }
+                }
+            }
+
+            function isIE () {
+                var myNav = navigator.userAgent.toLowerCase();
+                return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+            }
+
+            function getAjax(url, success, error) {
+                var request;
+                if(isIE () && isIE () < 10) {
+                    request =  new XDomainRequest();
+                    request.open('GET', url);
+                    request.onload = function () {
+                        var response = request.responseText;
+                        success(response);
+                    };
+                    request.onprogress = function(){ };
+                    request.ontimeout = function(){ };
+                    request.onerror = function () { };
+                    setTimeout(function(){
+                        request.send();
+                    }, 0);
+                }
+                else {
+                    request = new XMLHttpRequest();
+                    request.open('GET', url, true);
+                    request.onload = function () {
+                        if (request.status >= 200 && request.status < 400) {
+                            var response = request.responseText;
+                            success(response);
+                        } else if (error) {
+                            error();
+                        }
+                    };
+
+                    request.onerror = function () {
+                        if (error)
+                            { error(); }
+                    };
+
+                    request.send();
+                }
+            }
+
+            function appendOption(parentElm, value, text, selected) {
+                var optionElm = document.createElement('option');
+                optionElm.value = value;
+                optionElm.innerHTML = text;
+                if(selected)
+                    { optionElm.selected = selected; }
+                parentElm.appendChild(optionElm);
+            }
+
+            function loadModelList(makeId, callback) {
+                var defaultOption = modelList.options.length > 0 ? modelList.options[0].text : modelList.innerHTML;
+                var url = '';
+                modelList.innerHTML = '';
+                appendOption(modelList, "", defaultOption, false);
+
+                if (!makeId) {
+                    modelList.setAttribute('disabled', 'true');
+                    return;
+                }
+                var counterHost = 'https://m.autoscout24.' + tld;
+                if(tld === 'pl') {
+                    counterHost = 'https://www.autoscout24.pl';
+                }
+                if(tld === 'hu') {
+                    counterHost = 'https://www.autoscout24.hu';
+                }
+                if(tld === 'bg') {
+                    counterHost = 'https://www.autoscout24.bg';
+                }
+                if(tld === 'ro') {
+                    counterHost = 'https://www.autoscout24.ro';
+                }
+                if(tld === 'cz') {
+                    counterHost = 'https://www.autoscout24.cz';
+                }
+                if(tld === 'at') {
+                    counterHost = 'https://m.autoscout24.at';
+                }
+                if(tld === 'be') {
+                    var domaininfo = location.hostname.split('.');
+                    url = counterHost + '/makemodel/' + makeId + '/' + type + '/models?culture='+domaininfo[0]+'-'+domaininfo[2].toUpperCase();
+                }
+                else {
+                    url = counterHost + '/makemodel/' + makeId + '/' + type + '/models';
+                }
+                getAjax(url, function (data) {
+                    data = JSON.parse(data);
+                    var modelId = modelList.dataset.modelId || '0';
+                    for (var i = 0; i < data.length; i++) {
+                        var selected = false;
+                        if (data[i].Id == modelId) {
+                            selected = true;
+                        }
+                        appendOption(modelList, data[i].Id, data[i].Name, selected);
+                    }
+                    modelList.removeAttribute('disabled');
+                    if (callback) {
+                        callback();
+                    }
+                });
+            }
+
+            function getCulture() {
+                var cookies = document.cookie.split(';'),
+                    cookie;
+                for(var i=0; i<cookies.length; i++) {
+                    cookie = cookies[i];
+                    if (cookie.indexOf('culture') !== -1) {
+                        return cookie.split('=')[1];
+                    }
+                }
+                return undefined;
+            }
+
+            function loadCounter() {
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    var counterHost = 'https://m.autoscout24.' + tld;
+                    if(tld === 'pl') {
+                        counterHost = 'https://www.autoscout24.pl';
+                    }
+                    if(tld === 'hu') {
+                        counterHost = 'https://www.autoscout24.hu';
+                    }
+                    if(tld === 'ro') {
+                        counterHost = 'https://www.autoscout24.ro';
+                    }
+                    if(tld === 'bg') {
+                        counterHost = 'https://www.autoscout24.bg';
+                    }
+                    if(tld === 'cz') {
+                        counterHost = 'https://www.autoscout24.cz';
+                    }
+                    if(tld === 'at') {
+                        counterHost = 'https://m.autoscout24.at';
+                    }
+
+                    var url = counterHost + '/counter?';
+
+                    if (type == 'C') {
+                        url += 'atype=C';
+                    } else {
+                        url += 'atype=B';
+                    }
+
+
+                    var selectedMake = makeList.options[makeList.selectedIndex].value;
+                    if (selectedMake) {
+                        url += '&make=' + selectedMake;
+                    }
+
+                    if (modelList.options.length > 0 && modelList.selectedIndex > -1) {
+                        var selectedModel = modelList.options[modelList.selectedIndex].value;
+                        if (selectedModel) {
+                            url += '&model=' + selectedModel;
+                        }
+                    }
+
+                    if (selectedMake || selectedModel) {
+                        var culture = getCulture();
+                        var countryCode = culture ? culture.substr(culture.indexOf('-') + 1, 1) : document.querySelector('.searchForm [name=cy]').value;
+
+                        if (countryCode === 'N') {
+                            countryCode = 'NL';
+                        } else if (countryCode === 'G' || culture === 'pl-PL' || culture === 'hu-HU' || culture === 'ro-RO' || culture === 'cz-CZ' || culture === 'bg-BG') {
+                            countryCode = 'A%2cB%2cF%2cD%2cI%2cL%2cNL%2cE';
+                        }
+                        url += '&cy=' + countryCode;
+                    }
+
+                    var firstReg = document.querySelector('.searchForm [name=fregfrom]');
+                    if(firstReg && firstReg.value) {
+                        url += '&fregfrom=' + firstReg.value;
+                    }
+
+                    window.counterUrl = url;
+
+                    getAjax(url, function (data) {
+                        data = JSON.parse(data);
+                        counterEl.innerHTML = data.count;
+                        if (data.count == 0) {
+                            counterEl.parentElement.setAttribute('disabled', 'disabled');
+                        } else {
+                            counterEl.parentElement.removeAttribute('disabled');
+                        }
+                    });
+                }, 500);
+
+            }
+
+            function getParameterByName(query, name) {
+                name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(query);
+
+                return results === null ? undefined : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+
+            function init() {
+                if(makeList.value && makeList.value !== "") {
+                    loadModelList(makeList.options[makeList.selectedIndex].value, function() {
+                        var detailSearchBtn = document.querySelector('[data-detail-search-query]');
+                        var query = detailSearchBtn ? detailSearchBtn.getAttribute('data-detail-search-query') : '';
+                        if (query && query.length > 0) {
+                            var selectedModel = getParameterByName(query, 'model');
+                            if (selectedModel) {
+                                modelList.value = selectedModel;
+                            }
+                        }
+                    });
+                }
+                loadCounter();
+            }
+        };
+
+        var search = function (searchType) {
+            return new SearchModule(searchType);
+        };
+
+        function init() {
+            var searchTypeElement = document.getElementById('searchType');
+            if(searchTypeElement) {
+                search(searchTypeElement.value);
+            }
+        }
+
+        var index = {
+            init: init
+        };
+
+        return index;
+
+        }());
+    </script>
+    <script type="text/javascript">
+        showcarSearchTeaser.init();
+    </script>
+</section>
+
+{{end}} 

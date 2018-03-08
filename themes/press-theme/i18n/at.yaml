@@ -1,0 +1,88 @@
+- id: defaultHeadline
+  translation: "Gebrauchte {{ .Title }} bei AutoScout24 finden"
+- id: homepage
+  translation: "Startseite"
+- id: moreOptions
+  translation: "Weitere Suchoptionen"
+- id: searchHeadline
+  translation: "Finden Sie jetzt Ihr Wunschauto."
+- id: searchSubHeadline
+  translation: "Aus über 2,4 Mio. Fahrzeugen im europaweit größten Online-Automarkt."
+- id: modelfinder
+  translation: "Beliebte Modelle im Überblick"
+- id: currentOffers
+  translation: "Aktuelle Angebote"
+- id: introtext
+  translation: "Übersicht"
+- id: magazine
+  translation: "Aktuelle News und Testberichte"
+- id: ratings
+  translation: "Bewertungen"
+- id: techdata
+  translation: "Technische Daten"
+- id: morelinks
+  translation: "Weiterführende Links im Überblick"
+- id: totop
+  translation: "Nach Oben"
+- id: showmore
+  translation: "Mehr anzeigen"
+- id: toplisting
+  translation: "Top Angebote"
+- id: make-info
+  translation: "Herstellerinformationen"
+- id: aktuelleModelle
+  translation: "Aktuelle Modelle"
+- id: Baujahr
+  translation: "Baujahr"
+- id: Farbe
+  translation: "Farbe"
+- id: Hersteller
+  translation: "Hersteller"
+- id: Fahrzeugtyp
+  translation: "Fahrzeugtyp"
+- id: Modelle
+  translation: "Modelle"
+- id: Türen
+  translation: "Türen"
+- id: Ausstattung
+  translation: "Ausstattung"
+- id: Motorleistung
+  translation: "Motorleistung"
+- id: Kraftstoff
+  translation: "Kraftstoff"
+- id: Fahrzeugkategorie
+  translation: "Fahrzeugkategorie"
+- id: Preissegment
+  translation: "Preissegment"
+- id: Getriebe
+  translation: "Getriebe"
+- id: Spezial
+  translation: "Spezial"
+- id: PS
+  translation: "PS"
+- id: Gütesiegel
+  translation: "Gütesiegel"
+- id: Erstzulassung
+  translation: "Erstzulassung"
+- id: Kilometer
+  translation: "Kilometer"
+- id: Aufbautyp
+  translation: "Aufbautyp"
+- id: Kat
+  translation: "Kat"
+- id: Home
+  translation: "Home"
+- id: Sitze
+  translation: "Sitze"
+- id: Baureihe
+  translation: "Baureihe"
+- id: Hubraum
+  translation: "Hubraum"
+- id: allmakes
+  translation: "Alle Marken im Überblick"
+- id: offers
+  translation: "Treffer"
+- id: make
+  translation: "Marke"
+- id: model
+  translation: "Model"

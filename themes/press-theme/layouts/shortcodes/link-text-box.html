@@ -1,0 +1,16 @@
+<div class="sc-link-text-box">
+    <div class="sc-link-text-box__text">
+        <h3 class="sc-link-text-box__headline">
+            {{.Get "headline"}}
+        </h3>
+        <p class="sc-link-text-box__paragraph">
+            {{.Get "description" | safeHTML}}
+        </p>
+    </div>
+
+    <div class="sc-link-text-box__links">
+        <div class="sc-anchor-list-group">
+            {{ .Inner }}
+        </div>
+    </div>
+</div>

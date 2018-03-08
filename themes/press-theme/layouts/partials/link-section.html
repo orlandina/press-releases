@@ -1,0 +1,16 @@
+{{with .context }}
+<div class="opt-link-section">
+  <h2 class="sc-font-xl sc-text-center sc-padding-bottom-xxl">{{ .headline }}</h2>
+  {{ with .links }}
+      <ul class="sc-unique-link-list">
+          {{range . }}
+          <li>
+              <a href="{{ .url }}">
+                  <span>{{ .name | safeHTML }}</span>
+              </a>
+          </li> 
+          {{end}}                    
+      </ul> 
+    {{end}}
+</div>
+{{end}}

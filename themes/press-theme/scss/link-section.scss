@@ -1,0 +1,17 @@
+.opt-link-section {
+  border-bottom: 1px solid $black-30;
+  padding-left: $L;
+  padding-right: $L;
+  padding-top: $XXXL;
+  padding-bottom: $XXXL;
+
+  @include mqmin($viewportM) {
+    padding-top: $XXXXL;
+    padding-bottom: $XXXXL;
+  }
+  @include mqmin($viewportL) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+

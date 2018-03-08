@@ -1,0 +1,29 @@
+{{ if $.Params.techdata }}
+<style>
+    .opt-tech-data {
+        background-image: url('{{$.Site.Params.AssetsBaseURL}}images/techdata/techdata-s.jpg');
+    }
+
+    @media screen and (min-width: 768px) {
+        .opt-tech-data {
+            background-image: url('{{$.Site.Params.AssetsBaseURL}}images/techdata/techdata-m.jpg');
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .opt-tech-data {
+            background-image: url('{{$.Site.Params.AssetsBaseURL}}images/techdata/techdata-l.jpg');
+        }
+    }
+</style>
+
+<section class="opt-tech-data sc-absolute-center">
+    <div class="tech-data-content">
+        <h2 class="sc-font-xl sc-text-center">{{ i18n "techDataHeadline" .}}</h2>
+        <h3 class="sc-font-l sc-text-center sc-padding-bottom-xxl">{{ i18n "techDataSubheadline" }}</h3>
+        <div class="sc-absolute-center">
+            <a class="sc-btn-bob" href="{{$.Permalink}}technische-daten/">{{ i18n "techDataButton" }}</a>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,88 @@
+- id: defaultHeadline
+  translation: "{{ .Title }} - Annonces moto occasion sur AutoScout24 "
+- id: homepage
+  translation: "Page d'accueil"
+- id: moreOptions
+  translation: "Recherche détaillée"
+- id: searchHeadline
+  translation: "Trouvez la voiture de vos rêves."
+- id: searchSubHeadline
+  translation: "Plus de 2.4 millions de voitures. Le plus grand marché automobile en ligne en Europe."
+- id: modelfinder
+  translation: "Modèles les plus populaires"
+- id: currentOffers
+  translation: "Offres à la une"
+- id: introtext
+  translation: "Aperçu"
+- id: magazine
+  translation: "Toutes les actualités"
+- id: ratings
+  translation: "Evaluations"
+- id: techdata
+  translation: "Données techniques"
+- id: morelinks
+  translation: "Votre accès direct aux annonces"
+- id: totop
+  translation: "Haut"
+- id: showmore
+  translation: "Afficher plus"
+- id: toplisting
+  translation: "Offres à la une"
+- id: make-info
+  translation: "Information fabricant"
+- id: aktuelleModelle
+  translation: "Modèles actuels"
+- id: Baujahr
+  translation: "Années de construction"
+- id: Farbe
+  translation: "Types de couleur"
+- id: Hersteller
+  translation: "Fabricants"
+- id: Fahrzeugtyp
+  translation: "Types de véhicule"
+- id: Modelle
+  translation: "Modèles"
+- id: Türen
+  translation: "Nombre de portes"
+- id: Ausstattung
+  translation: "Types d'équipement"
+- id: Motorleistung
+  translation: "Puissance du moteur"
+- id: Kraftstoff
+  translation: "Types de carburant"
+- id: Fahrzeugkategorie
+  translation: "Catégories de véhicule"
+- id: Preissegment
+  translation: "Fourchettes de prix"
+- id: Getriebe
+  translation: "Types de transmission"
+- id: Spezial
+  translation: "Spécial"
+- id: PS
+  translation: "CH"
+- id: Gütesiegel
+  translation: "Labels de qualité"
+- id: Erstzulassung
+  translation: "Années de construction"
+- id: Kilometer
+  translation: "Kilomètres parcourus"
+- id: Aufbautyp
+  translation: "Types de fabrication"
+- id: Kat
+  translation: "Catégories"
+- id: Home
+  translation: "Home"
+- id: Sitze
+  translation: "Sièges"
+- id: Baureihe
+  translation: "Série"
+- id: Hubraum
+  translation: "Cylindrée (cc)"
+- id: allmakes
+  translation: "Toutes les marques en un coup d'oeil"
+- id: offers
+  translation: "résultats"
+- id: make
+  translation: "Marque"
+- id: model
+  translation: "Modèle"

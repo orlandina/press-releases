@@ -1,0 +1,29 @@
+{{ if ($.Sections) }}
+      {{ range $.Sections }}
+        {{ if eq .Params.focusKeyword "Hersteller" }}
+          {{ if not (in ($.Scratch.Get "firstLetters") (substr .Title 0 1)) }}
+            {{ $.Scratch.Add "firstLetters" (slice (substr .Title 0 1)) }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{if ($.Scratch.Get "firstLetters")}}
+      <div class="opt-links-section">
+        <h2 id="more-links" class="opt-links-section__headline sc-font-xl">{{ i18n "allmakes" }}</h2>
+        <div class="sc-separated-link-list-group">
+      {{ range $index := $.Scratch.Get "firstLetters" }}
+        <div class="sc-separated-link-list">
+          <h4 class="sc-separated-link-list__title sc-font-s">{{$index}}</h4>
+          <ul class="sc-separated-link-list__ul">
+            {{ range $.Sections.ByTitle }}
+              {{ if and (eq $index (substr .Title 0 1)) (eq .Params.focusKeyword "Hersteller") }}
+                <li><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+  {{end}}
+
+{{ end }}

@@ -1,0 +1,16 @@
+{{ with .context }}
+
+<div class="opt-rank-list-section">
+  {{with .headline }}<h2 class="sc-font-xl sc-text-center sc-padding-bottom-xxl">{{ . }}</h2>{{end}}
+  {{with .subheadline }}<h3 class="sc-font-l sc-text-center sc-padding-bottom-xxl">{{ . }}</h3>{{end}}
+  <ol class="sc-ordered-link-list sc-ordered-link-list__long sc-padding-bottom-xl">
+    {{ range .listitems }}
+    <li class="sc-ordered-link-list__li"><a href="{{ .url }}">{{ .name }}</a></li> 
+    {{ end }}
+  </ol>
+  {{ with .allmakesbtn }}
+  <a class="sc-search__link sc-text-center" href="{{ .url }}">{{ .title }}</a>
+  {{ end }}
+</div>
+
+{{ end }}

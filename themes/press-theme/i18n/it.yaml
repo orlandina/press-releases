@@ -1,0 +1,88 @@
+- id: defaultHeadline
+  translation: "{{ .Title }} - comprare o vendere moto usate o nuove - AutoScout24"
+- id: homepage
+  translation: "Home"
+- id: moreOptions
+  translation: "Modifica ricerca"
+- id: searchHeadline
+  translation: "Trova ora l'auto dei tuoi sogni"
+- id: searchSubHeadline
+  translation: "Oltre 2,4 milioni di veicoli nel più grande sito internet di annunci auto in Europa."
+- id: modelfinder
+  translation: "I modelli più popolari in evidenza"
+- id: currentOffers
+  translation: "Offerte Top"
+- id: introtext
+  translation: "Panoramica"
+- id: magazine
+  translation: "Ultime News"
+- id: ratings
+  translation: "Test e prove auto"
+- id: techdata
+  translation: "Dati tecnici"
+- id: morelinks
+  translation: "Altri collegamenti"
+- id: totop
+  translation: "Torna su"
+- id: showmore
+  translation: "Mostra di più"
+- id: toplisting
+  translation: "Offerte Top"
+- id: make-info
+  translation: "Informazioni sul produttore"
+- id: aktuelleModelle
+  translation: "I modelli più popolari in evidenza"
+- id: Baujahr
+  translation: "Anno di costruzione"
+- id: Farbe
+  translation: "Varianti di colore"
+- id: Hersteller
+  translation: "Marca"
+- id: Fahrzeugtyp
+  translation: "Tipologie veicolo"
+- id: Modelle
+  translation: "Modelli"
+- id: Türen
+  translation: "Numero porte"
+- id: Ausstattung
+  translation: "Varianti equipaggiamento"
+- id: Motorleistung
+  translation: "Prestazioni motore"
+- id: Kraftstoff
+  translation: "Varianti carburante"
+- id: Fahrzeugkategorie
+  translation: "Categorie veicolo"
+- id: Preissegment
+  translation: "Segmenti di prezzo"
+- id: Getriebe
+  translation: "Cambio"
+- id: Spezial
+  translation: "Speciale"
+- id: PS
+  translation: "CV"
+- id: Gütesiegel
+  translation: "Marchio di qualità"
+- id: Erstzulassung
+  translation: "Anno di immatricolazione"
+- id: Kilometer
+  translation: "Chilometraggio"
+- id: Aufbautyp
+  translation: "Assetto"
+- id: Kat
+  translation: "Categoria"
+- id: Home
+  translation: "Home"
+- id: Sitze
+  translation: "Numero di posti"
+- id: Baureihe
+  translation: "Seria"
+- id: Hubraum
+  translation: "Cilindrata (cc)"
+- id: allmakes
+  translation: "Tutte le marche"
+- id: offers
+  translation: "risultati"
+- id: make
+  translation: "Marca"
+- id: model
+  translation: "Modello"

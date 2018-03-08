@@ -1,0 +1,85 @@
+{{ $.Scratch.Add "Aufbautyp" "type" }}
+{{ $.Scratch.Add "Ausstattung" "equipment" }}
+{{ $.Scratch.Add "Attribut" "attribute" }}
+{{ $.Scratch.Add "Baujahr" "year" }}
+{{ $.Scratch.Add "Erstzulassung" "registration" }}
+{{ $.Scratch.Add "Fahrzeugkategorie" "vehiclecategorie" }}
+{{ $.Scratch.Add "Fahrzeugtyp" "vehicletyp" }}
+{{ $.Scratch.Add "Farbe" "color" }}
+{{ $.Scratch.Add "Getriebe" "transmission" }}
+{{ $.Scratch.Add "Gütesiegel" "seal" }}
+{{ $.Scratch.Add "Hersteller" "make" }}
+{{ $.Scratch.Add "Home" "home" }}
+{{ $.Scratch.Add "Kat" "categorie" }}
+{{ $.Scratch.Add "Kilometer" "mileage" }}
+{{ $.Scratch.Add "Kraftstoff" "fueltyp" }}
+{{ $.Scratch.Add "Modelle" "model" }}
+{{ $.Scratch.Add "Motorleistung" "version" }}
+{{ $.Scratch.Add "Preissegment" "pricesegment" }}
+{{ $.Scratch.Add "PS" "horsepower" }}
+{{ $.Scratch.Add "Spezial" "special" }}
+{{ $.Scratch.Add "Türen" "doors" }}
+{{ $.Scratch.Add "Hubraum" "cubic capacity" }}
+{{ $.Scratch.Add "Baureihe" "series" }}
+
+<!DOCTYPE html>
+<html lang="{{.Site.Params.language}}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if ne .Params.seoTitle ""}}{{  .Params.seoTitle }}{{else}}{{ .Title }}{{end}}</title>
+    {{ with .Params.seoDescription }}<meta name="description" content="{{  . }}">{{end}}
+    <meta name="robots" content="index,follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    {{with .Site.Params.devMode}}
+    <link rel="stylesheet" href="/showcar-ui/dist/showcar-ui.css">
+    {{end}}
+
+    {{ if (eq .Params.pageType "hub") }}
+      <meta name="apple-itunes-app" content="app-id=311785642, affiliate-data=WebApp, app-argument=AutoScout24://vehicle">
+      <meta name="google-play-app" content="app-id=com.autoscout24">
+      <link rel="alternate" href="android-app://com.autoscout24/autoscout24/auto/"/>
+    {{ else }}
+      <meta property="al:ios:app_store_id" content="311785642"/>
+      <meta property="al:ios:app_name" content="AutoScout24"/>
+      {{ if and (.Params.makeId) (.Params.modelId) }}
+        <meta property="al:ios:url" content="autoscout24://auto/{{ .Params.makeId }}/{{ .Params.modelId }}/"/>
+        <link rel="alternate" href="android-app://com.autoscout24/autoscout24/auto/{{ .Params.makeId }}/{{ .Params.modelId }}"/>
+      {{ else if .Params.makeId }}
+        <meta property="al:ios:url" content="autoscout24://auto/{{ .Params.makeId }}/"/>
+        <link rel="alternate" href="android-app://com.autoscout24/autoscout24/auto/{{ .Params.makeId }}"/>
+      {{ end }}
+    {{ end }}
+
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://sslwidget.criteo.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="{{.Site.Params.assetsBaseURL}}css/main{{getenv "MAIN_CSS_SUFFIX"}}.css">
+  </head>
+  <body>
+    <script>
+      if (window.location.host.indexOf('localhost') != 0 && window.location.protocol != 'https:') {
+        window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+    {{$pagef := $.Param "focusKeyword"}}
+    {{"<!--#block name=\"body_error\" -->" | safeHTML}}
+      <div class="home-ssi-error"></div>
+    {{"<!--#endblock -->" | safeHTML}}
+    {{"<!--#include virtual=\"/fragment/assets/external/showcar-ui/showcar-ui-standalone-fragment.html\" -->" | safeHTML}}
+    {{"<!--#include virtual=\"/fragment/service-worker/service-worker-fragment.html\" -->" | safeHTML}}
+    <as24-tracking type="pagename" country="{{.Site.Params.country}}" language="{{.Site.Params.language}}" category="opt" group="uc" layer="" market="vm" environment="{{.Site.Params.environment}}" pageid="mmc-{{.Site.Params.basecatalog}}-{{.Params.pageType}}" tech-state="tatsu" attribute=""></as24-tracking>
+    <as24-tracking type="gtm" action="set" opt_make-model-catalogue-level="{{$.Scratch.Get (printf "%s" .Params.focusKeyword)}}|{{.Params.pageType}}"></as24-tracking>
+    <div class="sc-content-container">
+      <a name="top"></a>
+      {{$includelang := replace .Site.Params.langtag "-" "_" }}
+      {{printf "<!--# include virtual=\"/fragment/contentservice/header_%s.html\" -->" $includelang  | safeHTML}}
