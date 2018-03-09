@@ -1,0 +1,33 @@
+baseURL: https://www.autoscout24.de/press/
+title: Pressemitteilungen AutoScout24
+theme: press-releases
+languageCode: de-de
+languageLang: de
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+enableGitInfo: true
+disableHugoGeneratorInject: true
+canonifyURLs: true
+staticDir: []
+publishDir: public/press
+outputs:
+  section:
+  - HTML
+#taxonomies:
+#  tag: tags
+#  category: categories
+#  date: dates
+#  year: years
+#  location: locations
+params:
+  description: Pressemitteilungen AutoScout24
+  author: AutoScout24
+  homeURL: https://www.autoscout24.de
+  langtag: de-DE
+  language: de
+  country: DE
+  environment: live
+  basecatalog: press
+  assetsBaseURL: https://www.autoscout24.de/assets/press/
+  sitemapAssetsPath: assets/press
+destination: ../dist/

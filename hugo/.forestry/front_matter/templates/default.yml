@@ -1,0 +1,27 @@
+---
+pages:
+- press-release.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: false
+- type: file
+  name: upload_pdf
+  label: 'upload pdf:'
+  description: here you can upload press release
+  hidden: false
+  config:
+    maxSize: '500'

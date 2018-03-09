@@ -1,9 +1,14 @@
-public
-node_modules
+
+# Ensure Hugo builds aren't committed to Git
+public/
+hugo/public/
+dist/
+.tmp/
 config.local.yaml
-.DS_Store
 .idea
 .vscode
 
-hugo
-dead-links.csv
+
+# Don't commit system files or dependencies
+*.DS_Store
+node_modules/
