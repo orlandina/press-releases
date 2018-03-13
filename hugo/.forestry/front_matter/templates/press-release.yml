@@ -35,13 +35,17 @@ fields:
   name: category
   config:
     source:
-      type: simple
+      type: datafiles
+      file: categories-yaml
+      path: categories
   label: Category
 - type: select
   name: country
   config:
     source:
-      type: simple
+      type: datafiles
+      file: countries-yaml
+      path: countries
   label: Country
 - type: file
   name: pdf
