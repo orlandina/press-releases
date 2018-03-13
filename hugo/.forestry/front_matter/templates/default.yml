@@ -51,3 +51,6 @@ fields:
   hidden: false
   default: false
 - type: file
+  label: Upload image
+  name: image
+  description: Here you can upload an image
