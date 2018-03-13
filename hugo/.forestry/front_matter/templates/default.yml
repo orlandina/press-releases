@@ -16,6 +16,9 @@ fields:
   label: Date
   config:
     required: true
+- type: textarea
+  name: summary
+  label: Summary (is visible on the list page)
 - type: file
   name: upload_pdf
   label: 'upload pdf:'
@@ -28,6 +31,7 @@ fields:
   type: boolean
   hidden: false
   default: false
-- type: textarea
-  name: summary
-  label: Summary (is visible on the list page)
+- type: text
+  name: subtitle
+  label: Subtitle (for the press release page, highlighted section on the top of the
+    text)
