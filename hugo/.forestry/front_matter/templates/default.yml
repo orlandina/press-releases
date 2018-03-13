@@ -25,3 +25,6 @@ fields:
   hidden: false
   config:
     maxSize: '500'
+- type: text
+  name: seotitle
+  label: SEO Title
