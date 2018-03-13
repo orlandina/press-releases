@@ -1,6 +1,4 @@
 ---
-pages:
-- press-release.md
 hide_body: false
 fields:
 - name: title
