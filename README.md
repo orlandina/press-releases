@@ -1,5 +1,3 @@
-MVP for press release, copy of
-
 # Hugo Boilerplate
 **A Hugo boilerplate for building modern websites 🌲**
 
@@ -83,8 +81,8 @@ npm run hugo -- new posts/example-post.md
 ├── dist/                  // The production build
 ├── hugo/                  // The Hugo project; content, data and static files
 |   ├── .forestry/         // Contains Forestry.io configuration files
-|   ├── content/           // Where all site content is stored
-|   ├── data/              // TOML, YAML or JSON files containing site data
+|   ├── content/           // Where all site content is stored 
+|   ├── data/              // TOML, YAML or JSON files containing site data 
 |   ├── layouts/           // Your site's layouts
 |   |   ├── partials/      // Your site's partials
 |   |   └── shortcodes/    // Your site's shortcodes
@@ -183,7 +181,7 @@ This repository comes with basic example content pre-configured to work with For
 - When prompted for the "Project root", enter `hugo`
 
 # Contributing
-All contributions are welcome! Please see our [Code of Conduct](/.github/CODE_OF_CONDUCT.md) & [Support](/.github/SUPPORT.md) guidelines.
+All contributions are welcome! Please see our [Code of Conduct](/.github/CODE_OF_CONDUCT.md) & [Support](/.github/SUPPORT.md) guidelines. 
 
 ## Licensing
 This boilerplate project is released under the [MIT license](/LICENSE).

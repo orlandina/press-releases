@@ -1,12 +1,9 @@
 {
-  "name": "press-releases",
+  "name": "hugo-boilerplate",
   "version": "1.0.0",
-  "description": "pages for press releases",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Scout24/press-releases.git"
-  },
-  "author": "",
+  "description": "A Hugo boilerplate for building modern websites",
+  "repository": "https://github.com/forestryio/hugo-boilerplate",
+  "author": "forestryio",
   "license": "MIT",
   "scripts": {
     "start": "gulp server",
@@ -55,8 +52,6 @@
     "postcss-scss": "^1.0.2",
     "precss": "^2.0.0",
     "run-sequence": "^2.2.0",
-    "sass-loader": "6.0.6",
-    "showcar-ui": "4.2.0",
     "stylelint": "^8.2.0",
     "stylelint-config-sass-guidelines": "^4.0.1",
     "stylelint-config-standard": "^17.0.0",
@@ -68,5 +63,7 @@
     "webpack-stream": "^4.0.0",
     "whatwg-fetch": "^1.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "showcar-ui": "^4.2.21"
+  }
 }
