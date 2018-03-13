@@ -16,6 +16,9 @@ fields:
   label: Date
   config:
     required: true
+- type: text
+  name: city
+  label: City
 - type: textarea
   name: summary
   label: Summary (is visible on the list page)
@@ -35,6 +38,9 @@ fields:
   type: boolean
   hidden: false
   default: false
-- type: text
-  name: city
-  label: City
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+  label: Category
