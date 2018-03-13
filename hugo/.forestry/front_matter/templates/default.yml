@@ -26,6 +26,12 @@ fields:
   name: subtitle
   label: Subtitle (for the press release page, highlighted section on the top of the
     text)
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+  label: Category
 - type: file
   name: upload_pdf
   label: 'upload pdf:'
@@ -39,8 +45,8 @@ fields:
   hidden: false
   default: false
 - type: select
-  name: category
+  name: country
   config:
     source:
       type: simple
-  label: Category
+  label: Country
