@@ -40,7 +40,7 @@ fields:
   label: Country
 - type: file
   name: pdf
-  label: 'upload pdf:'
+  label: upload pdf
   description: here you can upload press release as pdf
   hidden: false
   config:
