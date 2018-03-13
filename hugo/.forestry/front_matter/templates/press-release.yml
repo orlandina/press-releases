@@ -54,3 +54,6 @@ fields:
   label: Upload image
   name: image
   description: Here you can upload an image
+- type: text
+  name: breadcrumbs
+  label: breadcrumb last item (can be left empty)
