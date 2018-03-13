@@ -16,7 +16,7 @@ category: ''
 date: 2018-03-08 01:00:00 +0100
 city: München
 type: default
-pdf: ''
+pdf: "/uploads/2018/03/13/de_18_7_pm_autoscout24_pm_parken.pdf"
 image: ''
 
 ---
