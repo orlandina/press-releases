@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+
+<section class="sc-section">
+<div>
+<h1 name="opt-c13-heading" class="sc-font-xl sc-font-bold sc-padding-bottom-xl">{{.Page.Title}}</h1>
+
+<h2 class="sc-font-bold">{{ .Content }}</h2>
+
+<div class="sc-margin-top-l">
+{{ range .Pages }}
+<div class="sc-font-silent sc-margin-top-l">{{ .Params.city }}, {{ .Date.Format "02.01.2006" }}</div>
+<div class="sc-font-bold">{{ .Title }}</div>
+<div class="sc-margin-top-l">{{ .Params.summary }}</div>
+<a href="{{ .Permalink }}">&gt; Zur Pressemitteilung</a>
+
+{{ end }}
+</div>
+
+</div>
+</section>
+
+{{ partial "footer" . }}

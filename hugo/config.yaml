@@ -1,33 +1,36 @@
-baseURL: https://www.autoscout24.de/press/
-title: Pressemitteilungen AutoScout24
-theme: press-releases
-languageCode: de-de
-languageLang: de
-defaultContentLanguage: de
-defaultContentLanguageInSubdir: true
-enableGitInfo: true
-disableHugoGeneratorInject: true
-canonifyURLs: true
-staticDir: []
-publishDir: public/press
-outputs:
-  section:
-  - HTML
-#taxonomies:
-#  tag: tags
-#  category: categories
-#  date: dates
-#  year: years
-#  location: locations
+# Site settings
+# --------------
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ .Site.Params.myvariable }}.
+baseurl: "/" # The subpath of your site, e.g. / or /blog
+languageCode: "de-de"
+languageLang: "de"
+defaultContentLanguage: "de"
+title: "AutoScout24 GmbH"
+
+# Build settings
+# --------------
+
+# Set the destination the same as the Gulpfile for consistency
+destination: "../dist/"
+
+# Categories and tags disabled for an easier start
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds: ["taxonomy", "taxonomyTerm"]
+
+# Enable this to have links relativized by Hugo
+# E.g,  if your /post/first/ page contains a link
+# to /about/, Hugo will rewrite the URL to ../../about/
+relativeURLs: false
+
+# Enable to have links open in new tab
+hrefTargetBlank: false
+
+# Enable rendering of Emojis in markdown
+enableEmoji: true
+
+# Site Params
+# -------------
 params:
-  description: Pressemitteilungen AutoScout24
-  author: AutoScout24
-  homeURL: https://www.autoscout24.de
-  langtag: de-DE
-  language: de
-  country: DE
-  environment: live
-  basecatalog: press
-  assetsBaseURL: https://www.autoscout24.de/assets/press/
-  sitemapAssetsPath: assets/press
-destination: ../dist/
+  description: ""
+  author: "AutoScout24 GmbH"

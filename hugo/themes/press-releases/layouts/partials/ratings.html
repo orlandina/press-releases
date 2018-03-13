@@ -1,3 +1,0 @@
-{{ if and (.Params.makeId) (.Params.modelId)  }}
-    {{ printf "<!--#include virtual=\"/content-management-service/fragments/MakeModelRating.html?lang=%s&makeId=%s&modelId=%s\" -->" .Site.Params.langtag .Params.makeId .Params.modelId | safeHTML }}
-{{ end }}

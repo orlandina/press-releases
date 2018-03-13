@@ -1,6 +1,0 @@
-{{ $make := (querify "" .Title)}}
-{{ if eq .Params.listingDisplay "carousel" }}
-{{printf "<!--#include virtual=\"/fragment/content-management-service/fragments/listings.html?nojs=true&lang=%s&makeName%s&alternativeView=false&sort=standard&desc=0&%s\" -->" .Site.Params.langtag $make .Params.searchParams | safeHTML}}
-{{else}}
-{{printf "<!--#include virtual=\"/fragment/content-management-service/fragments/listings.html?nojs=true&lang=%s&makeName%s&alternativeView=true&sort=standard&desc=0&%s\" -->" .Site.Params.langtag $make .Params.searchParams | safeHTML}}
-{{ end }}
