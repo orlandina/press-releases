@@ -1,16 +1,27 @@
 ---
-title: "Städter frustriert von Parkplatzsuche"
-seotitle: "Städter frustriert von Parkplatzsuche"
-breadcrumbs: "AutoScout24"
-summary: "Die Parkplatzsituation in den deutschen Großstädten wird von der überwiegenden Zahl der Autofahrer als schlecht bzw. sehr schlecht eingeschätzt. Vor allem in München haben die Autofahrer Probleme damit, ihr Fahrzeug abzustellen. Damit ist die bayerische Landeshauptstadt zum zweiten Mal in Folge die Metropole mit der problematischsten Parkplatzsituation. Es folgen Köln und Stuttgart. Das sind Ergebnisse einer repräsentativen Umfrage von AutoScout24, dem europaweit größten Online-Automarkt, unter 1.605 Autofahrern in acht deutschen Großstädten*."
-subtitle: "Studie: Autofahrer vor allem in München, Köln und Stuttgart genervt / Leipzig mit bester Parkplatzsituation / Städter geben monatlich 38 Euro für Parken aus"
-country: "de"
-category: "Studie"
-date: "2018-03-08"
-city: "München"
+title: Städter frustriert von Parkplatzsuche
+seotitle: Städter frustriert von Parkplatzsuche
+breadcrumbs: AutoScout24
+summary: Die Parkplatzsituation in den deutschen Großstädten wird von der überwiegenden
+  Zahl der Autofahrer als schlecht bzw. sehr schlecht eingeschätzt. Vor allem in München
+  haben die Autofahrer Probleme damit, ihr Fahrzeug abzustellen. Damit ist die bayerische
+  Landeshauptstadt zum zweiten Mal in Folge die Metropole mit der problematischsten
+  Parkplatzsituation. Es folgen Köln und Stuttgart. Das sind Ergebnisse einer repräsentativen
+  Umfrage von AutoScout24, dem europaweit größten Online-Automarkt, unter 1.605 Autofahrern
+  in acht deutschen Großstädten*.
+subtitle: 'Studie: Autofahrer vor allem in München, Köln und Stuttgart genervt / Leipzig
+  mit bester Parkplatzsituation / Städter geben monatlich 38 Euro für Parken aus'
+country: ''
+category: ''
+date: 2018-03-08 01:00:00 +0100
+city: München
+type: default
+pdf: ''
+image: ''
+
 ---
 <p>
-Die Parkplatzsituation in den deutschen Großstädten wird von der überwiegenden Zahl der Autofahrer als schlecht bzw. sehr schlecht eingeschätzt. Vor allem in München haben die Autofahrer Probleme damit, ihr Fahrzeug abzustellen. Damit ist die bayerische Landeshauptstadt zum zweiten Mal in Folge die Metropole mit der problematischsten Parkplatzsituation. Es folgen Köln und Stuttgart. Das sind Ergebnisse einer repräsentativen Umfrage von AutoScout24, dem europaweit größten Online-Automarkt, unter 1.605 Autofahrern in acht deutschen Großstädten*. Demnach ärgern sich die Befragten vor allem über zu hohe Parkgebühren, schlecht parkende Autofahrer und zu wenig kostenlose Parkplätze. Im Schnitt geben die Autofahrer 38 Euro für das Parken im Monat aus. Am teuersten parkt man in München und Köln.
+Die Parkplatzsituation in den deutschen Großstädten wird von der überwiegenden Zahl der Autofahrer als schlecht bzw. sehr schlecht eingeschätzt. Vor allem in München haben die Autofahrer Probleme damit, ihr Fahrzeug abzustellen. Damit ist die bayerische Landeshauptstadt zum zweiten Mal in Folge die Metropole mit der problematischsten Parkplatzsituation. Es folgen Köln und Stuttgart. Das sind Ergebnisse einer repräsentativen Umfrage von AutoScout24, dem europaweit größten Online-Automarkt, unter 1.605 Autofahrern in acht deutschen Großstädten\*. Demnach ärgern sich die Befragten vor allem über zu hohe Parkgebühren, schlecht parkende Autofahrer und zu wenig kostenlose Parkplätze. Im Schnitt geben die Autofahrer 38 Euro für das Parken im Monat aus. Am teuersten parkt man in München und Köln.
 </p><h3>
 Münchner leiden besonders
 </h3>
@@ -56,15 +67,15 @@ Sehr schlecht. An manchen Tagen findet man überhaupt keinen Parkplatz	25%	22%	2
 Quelle: AutoScout24/Innofact; Basis: 1.605 repräsentativ befragte Autofahrer
 </p>
 <p>
-*Die Innofact AG befragte Ende Februar 2018 im Auftrag von AutoScout24 insgesamt 1.605 Autofahrer in acht deutschen Großstädten, bevölkerungsrepräsentativ hinsichtlich des Alters (18-65 Jahr) und Geschlechtes quotiert. Die ausführlichen Umfrageergebnisse erhalten Sie auf Anfrage unter presse@autoscout24.com.
+\*Die Innofact AG befragte Ende Februar 2018 im Auftrag von AutoScout24 insgesamt 1.605 Autofahrer in acht deutschen Großstädten, bevölkerungsrepräsentativ hinsichtlich des Alters (18-65 Jahr) und Geschlechtes quotiert. Die ausführlichen Umfrageergebnisse erhalten Sie auf Anfrage unter presse@autoscout24.com.
 </p>
 <h3>Über AutoScout24</h3>
 <p>
-AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. *
+AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. \*
 </p>
 <p>
 AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
 </p>
 <p>
-* FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
+\* FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
 </p>

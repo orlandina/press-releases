@@ -1,4 +1,6 @@
 ---
+pages:
+- pressreleases/pr1.md
 hide_body: false
 fields:
 - name: title
