@@ -32,10 +32,16 @@ fields:
     source:
       type: simple
   label: Category
+- type: select
+  name: country
+  config:
+    source:
+      type: simple
+  label: Country
 - type: file
-  name: upload_pdf
+  name: pdf
   label: 'upload pdf:'
-  description: here you can upload press release
+  description: here you can upload press release as pdf
   hidden: false
   config:
     maxSize: '500'
@@ -44,9 +50,4 @@ fields:
   type: boolean
   hidden: false
   default: false
-- type: select
-  name: country
-  config:
-    source:
-      type: simple
-  label: Country
+- type: file
