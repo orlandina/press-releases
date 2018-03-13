@@ -8,11 +8,9 @@ fields:
   default: ''
   config:
     required: true
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: ''
+- type: text
+  name: seotitle
+  label: SEO Title
 - name: draft
   label: Draft
   type: boolean
@@ -25,6 +23,8 @@ fields:
   hidden: false
   config:
     maxSize: '500'
-- type: text
-  name: seotitle
-  label: SEO Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
