@@ -11,6 +11,9 @@ fields:
 - type: text
   name: seotitle
   label: SEO Title
+- type: text
+  name: breadcrumbs
+  label: breadcrumb last item (can be left empty)
 - type: datetime
   name: date
   label: Date
@@ -45,15 +48,12 @@ fields:
   hidden: false
   config:
     maxSize: '500'
+- type: file
+  label: Upload image
+  name: image
+  description: Here you can upload an image
 - name: draft
   label: Draft
   type: boolean
   hidden: false
   default: false
-- type: file
-  label: Upload image
-  name: image
-  description: Here you can upload an image
-- type: text
-  name: breadcrumbs
-  label: breadcrumb last item (can be left empty)
