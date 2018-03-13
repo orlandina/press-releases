@@ -11,8 +11,8 @@ summary: Die Parkplatzsituation in den deutschen Großstädten wird von der übe
   in acht deutschen Großstädten*.
 subtitle: 'Studie: Autofahrer vor allem in München, Köln und Stuttgart genervt / Leipzig
   mit bester Parkplatzsituation / Städter geben monatlich 38 Euro für Parken aus'
-country: ''
-category: ''
+country: Germany
+category: Studien
 date: 2018-03-08 01:00:00 +0100
 city: München
 type: default
