@@ -71,11 +71,11 @@ Quelle: AutoScout24/Innofact; Basis: 1.605 repräsentativ befragte Autofahrer
 </p>
 <h3>Über AutoScout24</h3>
 <p>
-AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. \*
+AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. *
 </p>
 <p>
 AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
 </p>
 <p>
-\* FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
+* FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
 </p>
