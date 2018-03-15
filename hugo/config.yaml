@@ -2,10 +2,10 @@
 # --------------
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ .Site.Params.myvariable }}.
-baseurl: /
+baseurl: de
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
-enableGitInfo: true
+enableGitInfo: false
 title: "AutoScout24 GmbH"
 destination: "../dist/"
 relativeURLs: true
@@ -24,3 +24,20 @@ params:
     basecatalog: /
     assetsBaseURL: https://www.autoscout24.de/assets/
     sitemapAssetsPath: assets/presse
+
+Languages:
+  de:
+    baseURL: /de/
+    homeURL: /de/
+    langtag: de-DE
+    language: de
+    country: DE
+    assetsBaseURL: /de/
+
+  at:
+    baseURL: /at/
+    homeURL: /at/
+    langtag: de-AT
+    language: de
+    country: AT
+    assetsBaseURL: /at/
