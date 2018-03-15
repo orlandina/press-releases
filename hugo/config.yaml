@@ -2,35 +2,100 @@
 # --------------
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ .Site.Params.myvariable }}.
-baseurl: "/" # The subpath of your site, e.g. / or /blog
-languageCode: "de-de"
-languageLang: "de"
-defaultContentLanguage: "de"
+baseurl: de
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+enableGitInfo: true
 title: "AutoScout24 GmbH"
-
-# Build settings
-# --------------
-
-# Set the destination the same as the Gulpfile for consistency
 destination: "../dist/"
-
-# Categories and tags disabled for an easier start
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds: ["taxonomy", "taxonomyTerm"]
-
-# Enable this to have links relativized by Hugo
-# E.g,  if your /post/first/ page contains a link
-# to /about/, Hugo will rewrite the URL to ../../about/
-relativeURLs: false
-
-# Enable to have links open in new tab
+relativeURLs: true
 hrefTargetBlank: false
-
-# Enable rendering of Emojis in markdown
-enableEmoji: true
 
 # Site Params
 # -------------
 params:
-  description: ""
-  author: "AutoScout24 GmbH"
+    description: ""
+    author: "AutoScout24 GmbH"
+    homeURL: https://www.autoscout24.de
+    langtag: de-DE
+    language: de
+    country: DE
+    environment: live
+    basecatalog: /
+    assetsBaseURL: https://www.autoscout24.de/assets/
+    sitemapAssetsPath: assets/presse
+
+Languages:
+  de:
+    baseURL: /de/
+    homeURL: /de/
+    langtag: de-DE
+    language: de
+    country: DE
+    assetsBaseURL: /de/
+
+  at:
+    baseURL: /at/
+    homeURL: /at/
+    langtag: de-AT
+    language: de
+    country: AT
+    assetsBaseURL: /at/
+
+  nl:
+    baseURL: /nl/
+    homeURL: /nl
+    langtag: nl-NL
+    language: nl
+    country: NL
+    assetsBaseURL: /nl/
+
+  fr:
+    baseURL: /fr/
+    homeURL: /fr/
+    langtag: fr-FR
+    language: fr
+    country: FR
+    assetsBaseURL: https://www.autoscout24.fr/assets/
+
+  it:
+    baseURL: https://www.autoscout24.it/
+    homeURL: https://www.autoscout24.it
+    langtag: it-IT
+    language: it
+    country: IT
+    assetsBaseURL: https://www.autoscout24.it/assets/
+
+  nl-be:
+    baseURL: https://www.autoscout24.be/nl/
+    homeURL: https://www.autoscout24.be/nl/
+    langtag: nl-BE
+    language: nl
+    country: BE
+    publishDir: public/be
+    assetsBaseURL: https://www.autoscout24.be/assets/
+
+  fr-be:
+    baseURL: https://www.autoscout24.be/fr/
+    homeURL: https://www.autoscout24.be/fr/
+    langtag: fr-BE
+    language: fr
+    country: BE
+    publishDir: public/be
+    assetsBaseURL: https://www.autoscout24.be/assets/
+
+  es:
+    baseURL: https://www.autoscout24.es/
+    homeURL: https://www.autoscout24.es
+    langtag: es-ES
+    language: es
+    country: ES
+    assetsBaseURL: https://www.autoscout24.es/assets/
+
+  com:
+    baseURL: https://www.autoscout24.com/
+    homeURL: https://www.autoscout24.com
+    langtag: en-US
+    language: en
+    country: US
+    assetsBaseURL: https://www.autoscout24.com/assets/
