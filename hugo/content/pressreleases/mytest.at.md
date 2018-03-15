@@ -13,4 +13,4 @@ summary = ""
 title = "my test"
 
 +++
-![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 14.34.17.png)
+![](/de/uploads/2018/03/15/Screen Shot 2018-03-15 at 14.34.17.png)
