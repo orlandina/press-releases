@@ -49,5 +49,4 @@ Januar bis Dezember 2017; auf der Basis des Verhältnisses von Seitenaufrufen un
 |    9.    |    Kia Sportage    |    27.372 Euro    |
 |    10.    |    Volkswagen up!    |    13.811 Euro    |
 
-
 ![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
