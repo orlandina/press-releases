@@ -59,7 +59,8 @@ Frauen häufiger verärgert
 <p>
 Frage: Wie würden Sie die Parkplatzsuche in Ihrer Stadt beschreiben?
 
- 	Gesamt	Männer	Frauen
+    Gesamt	Männer	Frauen
+
 Sehr gut. Man findet immer sofort einen Parkplatz.	3%	4%	2%
 Gut. Manchmal dauert es aber etwas, bis man einen Parkplatz bekommt.	12%	14%	9%
 OK. Mit ein bisschen Geduld findet man einen Parkplatz.	23%	25%	21%
@@ -72,11 +73,29 @@ Quelle: AutoScout24/Innofact; Basis: 1.605 repräsentativ befragte Autofahrer
 </p>
 <h3>Über AutoScout24</h3>
 <p>
-AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. *
+AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. \*
 </p>
 <p>
 AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
 </p>
 <p>
+Hersteller/Marke und Modell	Durchschnittspreis
+
+<pre>
+	Hersteller/Marke und Modell	Durchschnittspreis 
+1.	Skoda Yeti	21.931 Euro
+2.	Hyundai i10	11.321 Euro
+3.	Hyundai i20	13.362 Euro
+4.	Volkswagen Polo	16.993 Euro
+5.	Nissan Qashqai	24.865 Euro
+6.	Skoda Fabia	14.349 Euro
+7.	Seat Ibiza	15.527 Euro
+8.	Mitsubishi Space Star	10.868 Euro
+9.	Kia Sportage	27.372 Euro
+10.	Volkswagen up!	13.811 Euro
+</pre>
+
+    
+
 * FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
-</p>
+  </p>
