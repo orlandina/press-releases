@@ -1,1 +1,7 @@
-countries : [Austria, Germany, Belgium, Italy, Spain]
+---
+countries:
+- Germany
+- Austria
+- Belgium
+- Italy
+- Spain
