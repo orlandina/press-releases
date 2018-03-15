@@ -4,7 +4,7 @@
 <h1 name="opt-c13-heading" class="sc-font-xl sc-font-bold sc-padding-bottom-xl">{{.Page.Title}}</h1>
 
 <div class="sc-grid-row"><div class="sc-grid-col-6 sc-font-silent">
-{{ .Params.city }}, {{ .Date.Format "02.01.2006" }}&nbsp;&nbsp;|&nbsp;&nbsp;Kategorie: {{ .Params.category }}
+{{ if $.Param "city" }}{{ .Params.city }}, {{ end}}{{ .Date.Format "02.01.2006" }}&nbsp;&nbsp;|&nbsp;&nbsp;Kategorie: {{ .Params.category }}
 </div><div class="sc-grid-col-6 sc-text-right">
 
 {{ if $.Param "infographicspdf" }}<a target="_blank" href="{{ .Params.infographicspdf }}">Infografiken</a>{{ end}}

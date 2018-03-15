@@ -19,10 +19,10 @@ export default function(env) {
       label: "Hugo",
       command: hugo,
       args: {
-        default: ["-v", "--source", resolve(dest), "--destination", resolve(build)],
-        development: ["-b", "http://localhost:3000/", "--buildDrafts", "--buildFuture", "--buildExpired"],
-        preview: ["-b", "http://localhost:3000/"],
-        production: []
+        default: ["-b", "http://localhost:3000/de", "-v", "--source", resolve(dest), "--destination", resolve(build)],
+        development: ["-b", "http://localhost:3000/de", "--buildDrafts", "--buildFuture", "--buildExpired"],
+        preview: ["-b", "http://localhost:3000/de"],
+        production: ["-b", "http://localhost:3000/de"]
       }
     },
     styles: {

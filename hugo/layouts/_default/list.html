@@ -8,11 +8,10 @@
 
 <div class="sc-margin-top-l">
 {{ range .Pages }}
-<div class="sc-font-silent sc-margin-top-l">{{ .Params.city }}, {{ .Date.Format "02.01.2006" }}</div>
+<div class="sc-font-silent sc-margin-top-l">{{ if .Params.city }}{{ .Params.city }}, {{ end}}{{ .Date.Format "02.01.2006" }}</div>
 <div class="sc-font-bold">{{ .Title }}</div>
 <div class="sc-margin-top-l">{{ .Params.summary }}</div>
 <a href="{{ .Permalink }}">&gt; Zur Pressemitteilung</a>
-
 {{ end }}
 </div>
 
