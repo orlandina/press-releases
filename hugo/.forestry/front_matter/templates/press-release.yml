@@ -56,6 +56,12 @@ fields:
   config:
     maxSize: '500'
 - type: file
+  name: infographicspdf
+  label: Upload Infographics
+  description: here you can upload infographics as pdf
+  config:
+    maxSize: '500'
+- type: file
   label: Upload image
   name: image
   description: Here you can upload an image
