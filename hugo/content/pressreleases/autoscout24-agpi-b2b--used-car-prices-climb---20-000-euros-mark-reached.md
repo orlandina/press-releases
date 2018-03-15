@@ -11,7 +11,7 @@ pdf = "/uploads/2018/03/15/de_18_10_autoscout24_pm_februar_2018_agpi-b2c.pdf"
 seotitle = ""
 subtitle = ""
 summary = "Der Februar hat die 20.000 Euro Marke wie erwartet geknackt. Damit kletterte der AutoScout24-Gebrauchtwagen-Preis-Index erstmals seit Bestehen über diese Marke. Der allgemeine Durchschnittspreis stieg im Februar um 0,9 Prozent auf 20.059 Euro (Januar: 19.874 Euro). Im Jahresvergleich haben die Preise um 4,1 Prozent zugelegt (Februar 2017: 19.262 Euro)."
-title = "AutoScout24 AGPI B2C: Gebrauchtwagenpreise erklimmen neues Allzeithoch"
+title = "AutoScout24 AGPI B2B: Gebrauchtwagenpreise klettern – 20.000 Euro Marke erreicht"
 
 +++
 Der Februar hat die 20.000 Euro Marke wie erwartet geknackt. Damit kletterte der AutoScout24-Gebrauchtwagen-Preis-Index erstmals seit Bestehen über diese Marke. Der allgemeine Durchschnittspreis stieg im Februar um 0,9 Prozent auf 20.059 Euro (Januar: 19.874 Euro). Im Jahresvergleich haben die Preise um 4,1 Prozent zugelegt (Februar 2017: 19.262 Euro). Trotz kurzem Faschingsmonat und Kälteeinbruch stiegen auch der Bestand und die Beliebtheit in Form von Seitenaufrufen an.
