@@ -2,7 +2,6 @@
 breadcrumbs = ""
 category = "Top ten"
 city = "Munchen"
-country = "Germany"
 date = "2018-03-15T10:34:53Z"
 image = ""
 infographicspdf = ""

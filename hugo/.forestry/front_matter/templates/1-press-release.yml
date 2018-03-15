@@ -1,10 +1,10 @@
 ---
 pages:
-- pressreleases/mytest.at.md
-- pressreleases/autoscout24-agpi-b2c--gebrauchtwagenpreise-erklimmen-neues-allzeithoch.md
-- pressreleases/autoscout24-agpi-b2b--used-car-prices-climb---20-000-euros-mark-reached.md
-- pressreleases/skoda-yeti-beliebtester-neuwagen-2017.md
-- pressreleases/pr1.md
+- pressreleases/at/2018/mytest.at.md
+- pressreleases/de/2018/autoscout24-agpi-b2c--gebrauchtwagenpreise-erklimmen-neues-allzeithoch.de.md
+- pressreleases/de/2018/autoscout24-agpi-b2b--used-car-prices-climb---20-000-euros-mark-reached.de.md
+- pressreleases/de/2018/skoda-yeti-beliebtester-neuwagen-2017.de.md
+- pressreleases/de/2017/pr1.de.md
 hide_body: false
 fields:
 - name: title
@@ -43,14 +43,6 @@ fields:
       file: categories-yaml
       path: categories
   label: Category
-- type: select
-  name: country
-  config:
-    source:
-      type: datafiles
-      file: countries-yaml
-      path: countries
-  label: Country
 - type: file
   name: pdf
   label: upload pdf
