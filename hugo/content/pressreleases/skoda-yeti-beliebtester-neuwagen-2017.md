@@ -7,7 +7,7 @@ date = "2018-03-15T10:34:53Z"
 image = ""
 infographicspdf = ""
 pdf = "/uploads/2018/03/15/de_18_05_autoscout24_pm_top_ten_neuwagen.pdf"
-seotitle = ""
+seotitle = "Skoda Yeti beliebtester Neuwagen 2017"
 subtitle = ""
 summary = "Beim Kraftfahrt-Bundesamt hatte man 2017 besonders viel zu tun: Mit 3,44 Millionen Fahrzeugen wurden dort so viele Neuwagen zugelassen wie noch nie. Doch welche Neuwagen sind bei den Deutschen besonders beliebt? Das zeigt jetzt die Top Ten der Neuwagen von AutosScout24, dem europaweit größten Online-Automarkt. Das Ergebnis: Trotz Abgasskandal schafft es der VW-Konzern mit gleich fünf Modellen ins Ranking. Mit dem Skoda Yeti stellen die Wolfsburger auch das beliebteste Modell 2017. "
 title = "Skoda Yeti beliebtester Neuwagen 2017"
@@ -50,4 +50,4 @@ Hersteller/Marke und Modell	Durchschnittspreis
  9. Kia Sportage			        27.372 Euro
 10. Volkswagen up!			13.811 Euro
     </pre>
-    ![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
+   ![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
