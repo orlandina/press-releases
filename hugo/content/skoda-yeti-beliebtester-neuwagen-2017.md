@@ -4,7 +4,6 @@ category = "Top ten"
 city = "Munchen"
 country = "Germany"
 date = "2018-03-15T10:34:53+00:00"
-draft = true
 image = ""
 infographicspdf = ""
 pdf = "/de/uploads/2018/03/15/de_18_05_autoscout24_pm_top_ten_neuwagen.pdf"
