@@ -2,7 +2,8 @@
 breadcrumbs = "test"
 category = ""
 city = ""
-date = "2018-03-15T14:50:25+00:00"
+date = "2018-03-15T14:50:25Z"
+draft = true
 image = ""
 infographicspdf = ""
 pdf = ""
