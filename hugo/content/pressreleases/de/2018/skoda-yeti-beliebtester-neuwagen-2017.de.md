@@ -23,15 +23,15 @@ Das bestplatzierte Fahrzeug ist ein Auslaufmodell: So wurde der Skoda Yeti Ende 
 
 Deutlich reduzierter ist man mit dem Hyundai i10 unterwegs, der im Neuwagenranking Platz zwei erreicht. Vor allem der günstige Preis von 11.321 Euro und der Normverbrauch von 4,6 Litern dürften den Ausschlag für dieses Stadtauto geben. Wem das Platzangebot des i10 nicht reicht, aber dennoch bei der Marke Hyundai bleiben will, sollte auf den i20 setzen (Platz drei). Der ist mit einem Durchschnittspreis von 13.362 Euro ebenfalls gut erschwinglich, in der Ausführung mit 1,4 Litern und 100 PS beschleunigt der Koreaner zudem auch ohne große Mühe auf 184 km/h. Der Normverbrauch liegt bei weiterhin niedrigen 5,5 Litern (Automatikgetriebe: 6,4 Liter).
 
-**Polo siegt im Bruderduell**
+## **Polo siegt im Bruderduell**
 
 Die Marke Volkswagen zieht mit zwei Modellen ins Ranking ein: Dem Polo auf Platz vier und dem up! auf dem zehnten Rang. Die beiden Kleinwagen trennen im Ranking rund 3.000 Euro: Während der Polo im Schnitt für 16.993 Euro angeboten wird, kommt der up! auf 13.811 Euro. Die Preise zeigen, dass hier schon eine Menge Extras verbaut sind, ist doch der up! schon unter 10.000 Euro zu haben und der Polo für unter 13.000 Euro. Auch die Plätze sechs und sieben sichert sich der VW-Konzern: Der Skoda Fabia steht zwar nicht ganz auf Augenhöhe mit dem Polo, kostet aber mit 14.349 Euro noch einmal 2.500 Euro weniger. Etwas tiefer muss man für den Seat Ibiza in die Tasche greifen. Dafür gibt es für 15.527 Euro aber auch ein Auto, das ab März letzten Jahres fast alle Vergleichstests für sich entscheiden konnte. Der große Unterschied zum neuen Polo: Das volldigitalisierte Cockpit, das in seiner Klasse wohl einmalig ist.
 
-**Billig geht immer**
+## **Billig geht immer**
 
 Doch es geht noch günstiger – mit dem Mitsubishi Space Star, der im AutoScout24 Neuwagenranking auf dem achten Platz vorfährt. 10.868 Euro zahlen Interessierte im Schnitt für den Nachfolger des Mitsubishi Colts. Ein groß geschnürtes Ausstattungspaket können Kunden dafür allerdings nicht erwarten.
 
-**Top Ten der beliebtesten Neuwagen**
+## **Top Ten der beliebtesten Neuwagen**
 
 Januar bis Dezember 2017; auf der Basis des Verhältnisses von Seitenaufrufen und Kontaktaufnahmen; Neuwagen
 
