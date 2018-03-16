@@ -23,8 +23,26 @@
   padding-top: 20px;
 }
 
-.sc-content h3
+.sc-content h3, .sc-content h2
 {
  padding-top: 20px;
  font-weight: bold;
+}
+
+.sc-content h3
+{
+ font-size: 1.25rem;
+}
+
+.sc-content h2
+{
+ font-size: 1.5rem;
+}
+.sc-content strong
+{
+ font-weight: bold;
+}
+.sc-content em
+{
+ font-style: italic;
 }
