@@ -7,14 +7,14 @@
 {{ if $.Param "city" }}{{ .Params.city }}, {{ end}}{{ .Date.Format "02.01.2006" }}&nbsp;&nbsp;|&nbsp;&nbsp;Kategorie: {{ .Params.category }}
 </div><div class="sc-grid-col-6 sc-text-right">
 
-{{ if $.Param "infographicspdf" }}<a target="_blank" href="{{ .Params.infographicspdf }}">Infografiken</a>{{ end}}
+{{ if $.Param "infographicspdf" }}<a target="_blank" href="/de/{{ .Params.infographicspdf }}">Infografiken</a>{{ end}}
 
-{{ if $.Param "pdf" }}<a target="_blank" href="{{ .Params.pdf }}">Download PDF</a>{{ end}}
+{{ if $.Param "pdf" }}<a target="_blank" href="/de/{{ .Params.pdf }}">Download PDF</a>{{ end}}
 </div>
 </div>
 {{ if $.Param "subtitle" }}<div class="sc-font-bold sc-margin-top-xl">{{ .Params.subtitle }}</div>{{end}}
 
-{{ if $.Param "image" }}<img src="{{ .Params.image }}">{{end}}
+{{ if $.Param "image" }}<img src="/de/{{ .Params.image }}">{{end}}
 
 <div class="sc-content">{{ .Content }}</div>
 </div></section>
