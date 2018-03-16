@@ -54,7 +54,7 @@ fields:
 - type: file
   label: Upload image
   name: image
-  description: Here you can upload an image
+  description: The image will show between title and text body
 - name: draft
   label: Draft
   type: boolean
