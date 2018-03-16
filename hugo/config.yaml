@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir: true
 enableGitInfo: false
 title: "AutoScout24 GmbH"
 destination: "../dist/"
-relativeURLs: true
+relativeURLs: false
 hrefTargetBlank: false
 
 # Site Params
