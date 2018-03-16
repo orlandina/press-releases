@@ -1,8 +1,8 @@
 +++
-breadcrumbs = ""
+breadcrumbs = "Skoda Yeti beliebtester Neuwagen 2017"
 category = "Top ten"
 city = "Munchen"
-date = "2018-03-15T10:34:53Z"
+date = "2018-03-16T11:34:53+01:00"
 image = ""
 infographicspdf = ""
 pdf = "/de/uploads/2018/03/15/de_18_05_autoscout24_pm_top_ten_neuwagen.pdf"
