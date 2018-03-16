@@ -47,7 +47,7 @@ fields:
     maxSize: '500'
 - type: file
   name: infographicspdf
-  label: Upload Infographics
+  label: Upload AGPI pdf
   description: here you can upload infographics as pdf
   config:
     maxSize: '500'
