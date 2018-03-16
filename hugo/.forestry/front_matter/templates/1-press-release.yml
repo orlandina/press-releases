@@ -41,7 +41,7 @@ fields:
 - type: file
   name: pdf
   label: Upload press release pdf
-  description: here you can upload press release as pdf
+  description: ''
   hidden: false
   config:
     maxSize: '500'
