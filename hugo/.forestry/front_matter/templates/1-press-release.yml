@@ -40,7 +40,7 @@ fields:
   label: Category
 - type: file
   name: pdf
-  label: upload pdf
+  label: Upload press release pdf
   description: here you can upload press release as pdf
   hidden: false
   config:
