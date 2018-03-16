@@ -17,7 +17,7 @@ Der Februar hat die **20.000 Euro Marke** wie erwartet geknackt. Damit kletterte
 
 Doch die Preise stiegen nicht am gesamten Gebrauchtwagenmarkt. „Das Urteil zum Fahrverbot hat zunächst eine weitere Wertminderung der Dieselautos zur Folge. Während die Preise für Dieselfahrzeuge im Januar erstmals seit langem wieder gestiegen waren, nahmen sie im Februar erneut ab. Inzwischen liegen sie bereits fünf Prozent unter ihrem Wert vom Februar 2017. Die Preise für gebrauchte Benziner legten hingegen innerhalb von einem Jahr um sechs Prozent zu“, sagt Dr. Felix Frank, Vice President Customer bei AutoScout24. „Es gibt allerdings auch positive Zeichen: Erstaunlicherweise hat das Interesse an Dieselfahrzeugen trotz des Urteils und der Diskussion in den letzten zwei Monaten erstmals wieder deutlich zugenommen.“
 
-### Preisentwicklung: Junge Gebrauchte treiben die Preise
+## Preisentwicklung: Junge Gebrauchte treiben die Preise
 
 Für den Anstieg beim Gesamtpreis sind im Februar vor allem junge Gebrauchte im Alter von bis zu zwölf Monaten verantwortlich (+2,1 Prozent, Durchschnittspreis: 28.639 Euro). Darüber hinaus trugen ein- bis dreijährige Gebrauchte (+0,3 Prozent, 26.311 Euro) ihren Teil dazu bei. Die Preise in den anderen Altersklassen sanken dagegen. So fielen die Preise bei Oldtimern ab 30 Jahren um 0,3 Prozent (30.362 Euro), bei fünf bis zehn Jahre alten Fahrzeugen um 0,6 Prozent (12.725 Euro) und bei Autos im Alter von zehn bis 20 Jahren um 0,9 Prozent (5.572 Euro). Größte Bremser waren im Februar allerdings Youngtimer (20-30 Jahre): Bei der insgesamt zweitgünstigsten Kategorie reduzierte sich der Durchschnittspreis um 3,5 Prozent (8.122 Euro).
 
