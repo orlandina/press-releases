@@ -3,7 +3,6 @@ breadcrumbs = ""
 category = "Top ten"
 city = "Munchen"
 date = "2018-03-15T15:31:26+01:00"
-draft = true
 image = "/uploads/2018/03/15/Screen Shot 2018-03-15 at 14.34.17.png"
 infographicspdf = "/uploads/2018/03/15/de_18_agpi_februar_2018_b2b.pdf"
 pdf = "/uploads/2018/03/15/de_18_10_autoscout24_pm_februar_2018_agpi-b2c.pdf"
