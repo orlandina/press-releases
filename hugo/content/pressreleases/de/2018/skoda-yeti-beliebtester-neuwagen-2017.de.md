@@ -36,6 +36,7 @@ Doch es geht noch günstiger – mit dem Mitsubishi Space Star, der im AutoScout
 Januar bis Dezember 2017; auf der Basis des Verhältnisses von Seitenaufrufen und Kontaktaufnahmen; Neuwagen
 
 <pre>Hersteller/Marke und Modell	Durchschnittspreis
+
  1. Skoda Yeti				21.931 Euro
  2. Hyundai i10				11.321 Euro
  3. Hyundai i20				13.362 Euro
@@ -46,5 +47,7 @@ Januar bis Dezember 2017; auf der Basis des Verhältnisses von Seitenaufrufen un
  8. Mitsubishi Space Star	        10.868 Euro
  9. Kia Sportage			        27.372 Euro
 10. Volkswagen up!			13.811 Euro
-</pre>
-![](/de/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
+    </pre>
+    ![](/de/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
+
+![](/uploads/2018/03/16/Screen Shot 2018-03-16 at 14.41.07.png)
