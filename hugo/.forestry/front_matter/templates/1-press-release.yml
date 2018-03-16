@@ -13,7 +13,8 @@ fields:
   label: SEO Title
 - type: text
   name: breadcrumbs
-  label: breadcrumb last item (can be left empty)
+  label: Breadcrumb navigation text (if left empty the last item will be the list
+    page)
 - type: datetime
   name: date
   label: Date
