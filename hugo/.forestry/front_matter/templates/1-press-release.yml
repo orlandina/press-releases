@@ -20,6 +20,9 @@ fields:
   label: Date
   config:
     required: true
+    date_format: DD.MM.YYYY
+    time_format: " "
+  default: Invalid date
 - type: text
   name: city
   label: City
