@@ -1,4 +1,6 @@
 ---
+pages:
+- pressreleases/de/2018/testklara.de.md
 hide_body: false
 fields:
 - name: date
