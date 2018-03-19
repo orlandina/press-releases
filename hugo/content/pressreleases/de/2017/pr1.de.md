@@ -60,25 +60,6 @@ Frage: Wie würden Sie die Parkplatzsuche in Ihrer Stadt beschreiben?
 
     Gesamt	Männer	Frauen
 
-Sehr gut. Man findet immer sofort einen Parkplatz.	3%	4%	2%
-Gut. Manchmal dauert es aber etwas, bis man einen Parkplatz bekommt.	12%	14%	9%
-OK. Mit ein bisschen Geduld findet man einen Parkplatz.	23%	25%	21%
-Schlecht. Man muss oft länger suchen, bevor man einen Parkplatz bekommt.	37%	35%	39%
-Sehr schlecht. An manchen Tagen findet man überhaupt keinen Parkplatz	25%	22%	28%
-Quelle: AutoScout24/Innofact; Basis: 1.605 repräsentativ befragte Autofahrer
-</p>
-<p>
-\*Die Innofact AG befragte Ende Februar 2018 im Auftrag von AutoScout24 insgesamt 1.605 Autofahrer in acht deutschen Großstädten, bevölkerungsrepräsentativ hinsichtlich des Alters (18-65 Jahr) und Geschlechtes quotiert. Die ausführlichen Umfrageergebnisse erhalten Sie auf Anfrage unter presse@autoscout24.com.
-</p>
-<h3>Über AutoScout24</h3>
-<p>
-AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. \*
-</p>
-<p>
-AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
-</p>
-<p>
+Sehr gut. Man findet immer sofort einen Parkplatz.	3%	4%	2% Gut. Manchmal dauert es aber etwas, bis man einen Parkplatz bekommt.	12%	14%	9% OK. Mit ein bisschen Geduld findet man einen Parkplatz.	23%	25%	21% Schlecht. Man muss oft länger suchen, bevor man einen Parkplatz bekommt.	37%	35%	39% Sehr schlecht. An manchen Tagen findet man überhaupt keinen Parkplatz	25%	22%	28% Quelle: AutoScout24/Innofact; Basis: 1.605 repräsentativ befragte Autofahrer </p> <p> \*Die Innofact AG befragte Ende Februar 2018 im Auftrag von AutoScout24 insgesamt 1.605 Autofahrer in acht deutschen Großstädten, bevölkerungsrepräsentativ hinsichtlich des Alters (18-65 Jahr) und Geschlechtes quotiert. Die ausführlichen Umfrageergebnisse erhalten Sie auf Anfrage unter presse@autoscout24.com. </p> <h3>Über AutoScout24</h3> <p> AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 können Nutzer Gebraucht- sowie Neuwagen kaufen und verkaufen. Der Marktplatz inspiriert rund um das Thema Auto und hilft, die beste Entscheidung zu treffen. So gehen Autokäufer gut informiert und kaufbereit zum Händler. In Deutschland genießt AutoScout24 in seiner Zielgruppe eine einzigartige gestützte Markenbekanntheit von 94 Prozent. Mit mehr als 20 Millionen Downloads wurde die App von AutoScout24 als beste, kundenfreundlichste App ausgezeichnet. \* </p> <p> AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe. </p> 
 
-* FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
-  </p>
-* ![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
+![](/uploads/2018/03/16/Screen Shot 2018-03-16 at 14.41.07.png)
