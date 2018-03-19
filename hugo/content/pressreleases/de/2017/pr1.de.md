@@ -78,5 +78,7 @@ AutoScout24 ist europaweit der größte Online-Automarkt. Mit AutoScout24 könne
 AutoScout24 gehört ebenso wie ImmobilienScout24 zur Scout24-Gruppe.
 </p>
 <p>
+
 * FOCUS-MONEY Studie "Kundenfreundliche Apps" (Heft 13/17)
   </p>
+* ![](/uploads/2018/03/15/Screen Shot 2018-03-15 at 12.33.07.png)
