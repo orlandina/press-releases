@@ -10,6 +10,7 @@ title: "AutoScout24 GmbH"
 destination: "../dist/"
 relativeURLs: false
 hrefTargetBlank: false
+metaDataFormat: yaml
 
 # Site Params
 # -------------
