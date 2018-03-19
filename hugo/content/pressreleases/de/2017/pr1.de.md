@@ -15,7 +15,7 @@ category: Studien
 date: 2018-03-08 01:00:00 +0100
 city: München
 type: default
-pdf: "/de/uploads/2018/03/13/de_18_7_pm_autoscout24_pm_parken.pdf"
+pdf: "/uploads/2018/03/15/de_18_agpi_februar_2018_b2b.pdf"
 infographicspdf: ''
 image: ''
 
