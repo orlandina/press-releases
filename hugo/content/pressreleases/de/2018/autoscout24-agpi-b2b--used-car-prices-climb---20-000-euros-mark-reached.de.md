@@ -1,6 +1,6 @@
 +++
 breadcrumbs = ""
-category = "Top ten"
+category = "AGPI - B2B"
 city = "Munchen"
 date = "2018-03-15T15:31:26+01:00"
 image = "/uploads/2018/03/15/Screen Shot 2018-03-15 at 14.34.17.png"
